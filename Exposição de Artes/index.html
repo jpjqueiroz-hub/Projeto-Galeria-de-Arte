@@ -3,13 +3,12 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" >
-<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" /> --> 
-<!-- <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet" /> -->
-
-<!-- <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script> -->
-<!--Comentei esses links porque eles só são usados quando o bootstrap é utilizado na nuvem, como os arquivos do boostrap foram baixados esses links são desnecessários-->
-<title>nome do site ou home</title>
 <link rel="stylesheet" href="bootstrap/css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+<title>nome do site ou home</title>
+
 
 <body>
 
@@ -18,11 +17,11 @@
 
   <!--Div Logo-->
   <div class="row">
-		<div class="col-md-12">
+		<div class="col-md-12 tamanhoNavbar">
       <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid justify-content-center ">
-           <a class="navbar-brand" href="#">
-             <img src=""  alt="Logo do Site" width="30" height="24">
+        <div class="container-fluid justify-content-center tamanhoNavbar">
+           <a class="navbar-brand" href="index.html">
+             <img src="Imagens/LOGO ARTES.jpg" class="ajusteLogo" alt="Logo do Site" width="30" height="24">
            </a>
         </div>
       </nav>
@@ -32,11 +31,13 @@
 
 
 <!--Div Menu transparente e Carrossel-->
+<div class="row">
+  <div class="col-md-12">
 <div class="boxMenuTransparente">
 
-  <nav class="navbar navbar-expand-lg navbar-menu-overlay">
+  <nav class="navbar navbar-expand-lg navbar-menu-overlay ">
     <div class="container-fluid ">
-          <a class="navbar-brand " href="index.html">Nome do Site</a>
+
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -46,7 +47,12 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav mx-auto"> <!--botões do menu centralizados-->
 
-          <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
+
+        <li class="nav-item "><a class="nav-link" href="index.html" role="button"
+               aria-expanded="false">Início</a>
+          </li>
+
+          <li class="nav-item dropdown corMenu"><a class="nav-link dropdown-toggle corMenu" href="#" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">Obras de arte</a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Todas as obras</a></li>
@@ -149,7 +155,7 @@
         <img src="Imagens/imagensCarrossel_2.png" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="Imagens/imagensCarrossel_3.png"d-block w-100" alt="...">
+        <img src="Imagens/imagensCarrossel_3.png" class="d-block w-100" alt="...">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -163,29 +169,36 @@
   </div>
 
 </div>
+</div>
+</div>
+
 
 <!--Fim Da div menu e carrossel-->
 
 
 <!--Div Imagens pintores-->
 
-<div class="row">
+<div class="tituloArtistas">
+  <h1>Artistas:</h1>
+</div>
+
+<div class="row imgPintores">
   <div class="col-md-12">
     <div class="row">
-      <div class="col-md-3">
-        <img src="Imagens/Van Gogh.webp" class="img-thumbnail" alt="...">
+      <div class="col-md-3 animacaoImgPintores">
+        <img src="Imagens/Van Gogh.webp" class="img-thumbnail ajusteImgArtistas" alt="..."> <br>  <a href="vincentVanGogh.html" class="fonteNomeArtistas">Van Gogh</a>
       </div>
       
       <div class="col-md-3">
-        <img src="Imagens/Van Gogh.webp" class="img-thumbnail" alt="...">
+        <img src="Imagens/672d37ca5b514905771b79b0_monet-ponte-japonesa-2-d.jpg" class="img-thumbnail ajusteImgArtistas" alt="..."> <br> <a href="ClaudeMonet.html" class="fonteNomeArtistas"> Claude Monet</a>
       </div>
     
       <div class="col-md-3">
-        <img src="Imagens/Van Gogh.webp" class="img-thumbnail" alt="...">
+        <img src="Imagens/Van Gogh.webp" class="img-thumbnail ajusteImgArtistas" alt="..."> <br> <a href="CamillePissarro.html" class="fonteNomeArtistas"> Camille Pissarro</a>
       </div>
 
       <div class="col-md-3">
-        <img src="Imagens/Van Gogh.webp" class="img-thumbnail" alt="...">
+        <img src="Imagens/Van Gogh.webp" class="img-thumbnail ajusteImgArtistas" alt="..."> <br> <a href="PabloPicasso.html" class="fonteNomeArtistas"> Pablo Picasso</a>
       </div>
     
     </div>
@@ -193,33 +206,144 @@
 </div>
 
 
-<div class="row">
+<div class="row imgPintores">
   <div class="col-md-12">
     <div class="row">
       <div class="col-md-3">
-        <img src="Imagens/Van Gogh.webp" class="img-thumbnail" alt="...">
+        <img src="Imagens/Van Gogh.webp" class="img-thumbnail ajusteImgArtistas" alt="..."> <br> <a href="LeonardoDaVinci.html" class="fonteNomeArtistas"> Leonardo Da Vinci</a>
       </div>
       
       <div class="col-md-3">
-        <img src="Imagens/Van Gogh.webp" class="img-thumbnail" alt="...">
+        <img src="Imagens/Van Gogh.webp" class="img-thumbnail ajusteImgArtistas" alt="..."> <br> <a href="SalvadorDali.html" class="fonteNomeArtistas"> Salvador Dali</a>
       </div>
     
       <div class="col-md-3">
-        <img src="Imagens/Van Gogh.webp" class="img-thumbnail" alt="...">
+        <img src="Imagens/Van Gogh.webp" class="img-thumbnail ajusteImgArtistas" alt="..."> <br> <a href="FridaKahlo.html" class="fonteNomeArtistas"> Frida Kahlo</a>
       </div>
 
       <div class="col-md-3">
-        <img src="Imagens/Van Gogh.webp" class="img-thumbnail" alt="...">
+        <img src="Imagens/Van Gogh.webp" class="img-thumbnail ajusteImgArtistas" alt="..."> <br> <a href="Rembrandt.html" class="fonteNomeArtistas"> Rembrandt</a>
       </div>
     
     </div>
   </div>
 </div>
 
+<div class="row">
+  <div class="col-md-12 ajusteBotao">
+    <button type="button" class="btn btn-outline-dark"><a href="todosPintores.html" class="corBotoes">Todos Os Pintores</a></button>
+  </div>
+</div>
 
+<!-- Footer -->
+<footer class="text-center text-lg-start  text-muted ajusteFooter">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block fontesFooter">
+      <span>Conecte-se as nossas redes:</span>
+    </div>
+    <!-- Left -->
 
-    
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset ajusteRedes">
+        <i class="fab fa-facebook-f "><img src="Imagens/facebook.png" alt=""></i>
+      </a>
+      <a href="" class="me-4 text-reset ajusteRedes">
+        <i class="fab fa-twitter "><img src="Imagens/x.png" alt=""> </i>
+      </a>
+      <a href="" class="me-4 text-reset ajusteRedes">
+        <i class="fab fa-google "> <img src="Imagens/youtube.png" alt=""></i>
+      </a>
+      <a href="" class="me-4 text-reset ajusteRedes">
+        <i class="fab fa-instagram "> <img src="Imagens/instagram.png" alt=""> </i>
+      </a>
+      <a href="" class="me-4 text-reset ajusteRedes">
+        <i class="fab fa-linkedin "><img src="Imagens/linkedin.png" alt=""></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
 
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Nome da Empresa
+          </h6>
+   
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+
+          <p>
+            <a href="index.html" class="text-reset fontesFooter">Início</a>
+          </p>
+          <p>
+            <a href="tdsObras.html" class="text-reset fontesFooter">Todas As Obras</a>
+          </p>
+          <p>
+            <a href="novasObras.html" class="text-reset fontesFooter">Novas Obras</a>
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <p>
+            <a href="todosPintores.html" class="text-reset fontesFooter">Todos os pintores</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset fontesFooter">Obras por Temas</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset fontesFooter">Sobre Nós</a>
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contato</h6>
+          <p><i class="fas fa-home me-3"></i> São Paulo, SP</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@example.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> +555 11 98765-4321 </p>
+
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      Todos Direitos Reservados - 2025
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
 
 
 
