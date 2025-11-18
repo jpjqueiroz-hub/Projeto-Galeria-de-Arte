@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" >
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" /> --> 
+<!-- <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet" /> -->
+
+<!-- <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script> -->
+<!--Comentei esses links porque eles só são usados quando o bootstrap é utilizado na nuvem, como os arquivos do boostrap foram baixados esses links são desnecessários-->
+<title>nome do site ou home</title>
+<link rel="stylesheet" href="bootstrap/css/style.css">
+
+<body>
+
+<div class="container-fluid">
+
+
+  <!--Div Logo-->
+  <div class="row">
+		<div class="col-md-12">
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid justify-content-center ">
+           <a class="navbar-brand" href="#">
+             <img src=""  alt="Logo do Site" width="30" height="24">
+           </a>
+        </div>
+      </nav>
+    </div>
+  </div>
+<!--Fim da div Logp-->
+
+
+<!--Div Menu transparente e Carrossel-->
+<div class="boxMenuTransparente">
+
+  <nav class="navbar navbar-expand-lg navbar-menu-overlay">
+    <div class="container-fluid ">
+          <a class="navbar-brand " href="index.html">Nome do Site</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mx-auto"> <!--botões do menu centralizados-->
+
+          <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Obras de arte</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Todas as obras</a></li>
+              <li><a class="dropdown-item" href="#">Novas obras</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Pintores</a>
+            <ul class="dropdown-menu dropdown-menu-coluna">
+              <div class="dropdown-coluna-container">
+
+                <div class="dropdown-coluna">
+                  <li><a class="dropdown-item" href="vincentVanGogh.html">Vincent van Gogh</a></li>
+                  <li><a class="dropdown-item" href="ClaudeMonet.html">Claude Monet</a></li>
+                  <li><a class="dropdown-item" href="CamillePissarro.html">Camille Pissarro</a></li>
+                  <li><a class="dropdown-item" href="PabloPicasso.html">Pablo Picasso</a></li>
+                  <li><a class="dropdown-item" href="LeonardoDaVinci.html">Leonardo da Vinci</a></li>
+                </div>
+
+                <div class="dropdown-coluna">
+                  <li><a class="dropdown-item" href="#">Salvador Dalí</a></li>
+                  <li><a class="dropdown-item" href="#">Frida Kahlo</a></li>
+                  <li><a class="dropdown-item" href="#">Rembrandt</a></li>
+                  <li><a class="dropdown-item" href="#">Michelangelo</a></li>
+                  <li><a class="dropdown-item" href="#">Johannes Vermeer</a></li>
+                </div>
+
+                <div class="dropdown-coluna">
+                  <li><a class="dropdown-item" href="#">Edvard Munch</a></li>
+                  <li><a class="dropdown-item" href="#">Andy Warhol</a></li>
+                  <li><a class="dropdown-item" href="#">Jackson Pollock</a></li>
+                  <li><a class="dropdown-item" href="#">Henri Matisse</a></li>
+                  <li><a class="dropdown-item" href="#">Paul Cézanne</a></li>
+                </div>
+
+              </div>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Obras por tema</a>
+            <ul class="dropdown-menu">
+              <div class="dropdown-coluna-container">
+
+                <div class="dropdown-coluna">
+                  <li><a class="dropdown-item" href="#">Religioso</a></li>
+                  <li><a class="dropdown-item" href="#">Mitologia</a></li>
+                  <li><a class="dropdown-item" href="#">Paisagem</a></li>
+                  <li><a class="dropdown-item" href="#">Marinha</a></li>  
+                  <li><a class="dropdown-item" href="#">Floral</a></li>
+                  <li><a class="dropdown-item" href="#">Natureza morta</a></li>
+                </div>
+
+                <div class="dropdown-coluna">
+                  <li><a class="dropdown-item" href="#">Animal</a></li>
+                  <li><a class="dropdown-item" href="#">Abstrato</a></li>
+                  <li><a class="dropdown-item" href="#">Musical</a></li>
+                  <li><a class="dropdown-item" href="#">Guerra</a></li>
+                  <li><a class="dropdown-item" href="#">Retrato</a></li>  
+                  <li><a class="dropdown-item" href="#">Monumento</a></li>
+                </div>
+
+              </div>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Informações</a>
+            <ul class="dropdown-menu">
+              <div class="dropdown-coluna-container">
+
+                <div class="dropdown-coluna">
+                  <li><a class="dropdown-item" href="#">Contato</a></li>
+                  <li><a class="dropdown-item" href="#">localização</a></li>
+                  <li><a class="dropdown-item" href="termoDeUso.html">Termos de uso</a></li>
+                  <li><a class="dropdown-item" href="privacidade.html">Privacidade</a></li>
+                  <li><a class="dropdown-item" href="#">Sobre nós</a></li>
+                </div>
+
+              </div>
+            </ul>
+          </li>
+
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!--Carrossel-->
+
+  <div id="carouselExampleFade" class="carousel slide carousel-fade carousel-custom-height">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Imagens/imagensCarrossel_1.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="Imagens/imagensCarrossel_2.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="Imagens/imagensCarrossel_3.png"d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+</div>
+
+<!--Fim Da div menu e carrossel-->
+
+
+<!--Div Imagens pintores-->
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="row">
+      <div class="col-md-3">
+        <img src="Imagens/Van Gogh.webp" class="img-thumbnail" alt="...">
+      </div>
+      
+      <div class="col-md-3">
+        <img src="Imagens/Van Gogh.webp" class="img-thumbnail" alt="...">
+      </div>
+    
+      <div class="col-md-3">
+        <img src="Imagens/Van Gogh.webp" class="img-thumbnail" alt="...">
+      </div>
+
+      <div class="col-md-3">
+        <img src="Imagens/Van Gogh.webp" class="img-thumbnail" alt="...">
+      </div>
+    
+    </div>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="row">
+      <div class="col-md-3">
+        <img src="Imagens/Van Gogh.webp" class="img-thumbnail" alt="...">
+      </div>
+      
+      <div class="col-md-3">
+        <img src="Imagens/Van Gogh.webp" class="img-thumbnail" alt="...">
+      </div>
+    
+      <div class="col-md-3">
+        <img src="Imagens/Van Gogh.webp" class="img-thumbnail" alt="...">
+      </div>
+
+      <div class="col-md-3">
+        <img src="Imagens/Van Gogh.webp" class="img-thumbnail" alt="...">
+      </div>
+    
+    </div>
+  </div>
+</div>
+
+
+
+    
+
+
+
+
+</div>
+  <script src="bootstrap/js/popper.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
