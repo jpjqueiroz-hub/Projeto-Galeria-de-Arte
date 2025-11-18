@@ -1,3 +1,133 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.container-fluid{
+   margin: 0;
+   padding: 0;
+   
+}
+
+.tamanhoNavbar{
+  height: 100px;
+}
+.ajusteLogo{
+  width: 100%;
+  height: 100px ;
+}
+
+
+/* --- NAVBAR SUPERIOR (LOGO) --- */
+.navbar-top {
+  background: #ffffff;
+  z-index: 10000;
+  position: relative;
+}
+
+/* CONTAINER QUE SEGURA A NAVBAR-INFERIOR E O CARROSSEL */
+.boxMenuTransparente {
+  position: relative;
+}
+
+/* --- NAVBAR INFERIOR (MENU SOBRE O CARROSSEL) --- */
+.navbar-menu-overlay {
+  position: absolute;
+  top: 0;                
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background: transparent !important;
+}
+
+.navbar-menu-overlay .nav-link,
+.navbar-menu-overlay .navbar-brand {
+  color: rgb(255, 255, 255);
+  font-size: 1.4em;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+}
+
+.navbar-menu-overlay .navbar-toggler-icon {
+  filter: invert(1);
+}
+
+
+
+
+.tituloArtistas{
+  width: 95%;
+  text-align: left;
+  margin-top: 20px;
+  padding-left: 4%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border-bottom: rgb(0, 0, 0, 0.1);
+  
+}
+
+
+.col-md-3 img{
+  width: 300px;
+  height: 300px;
+  
+}
+
+
+.imgPintores{
+  align-items: center;
+  text-align: center;
+  margin: 1%;
+}
+
+.ajusteImgArtistas{
+  border-style: none;
+}
+.fonteNomeArtistas{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: black;
+}
+
+
+.fonteNomeArtistas:hover{ /*hover (mouse sobre o link)*/
+	color: #000000;
+	/*text-decoration: underline;*/
+	border-bottom: #000000 2px solid;
+}
+
+.ajusteBotao{
+  text-align: center;
+  align-items: center;
+}
+
+.corBotoes{
+  color: #000000;
+  text-decoration: none;
+}
+
+.corBotoes:hover{
+  color: #ffffff;
+}
+
+.ajusteFooter{
+  margin-top: 40px;
+  background-color: rgb(255, 251, 243);
+}
+
+.fontesFooter{
+  font-family:"DM Sans", sans-serif ;
+  font-size: 1.4em;
+  color: #000000;
+  text-decoration: none;
+}
+
+.ajusteRedes{
+  text-decoration: none;
+}
+
+
 .dropdown-menu-coluna {
   min-width: 300px;
   padding: 0;
