@@ -3,7 +3,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="bootstrap/css/style.css">
+<link rel="stylesheet" href="bootstrap/css/pintores.css">
 <title>vincent Van Gogh</title>
 
 <body>
@@ -11,11 +11,11 @@
   <div class="container-fluid">
 
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-12 tamanhoNavbar">
         <nav class="navbar bg-body-tertiary">
-          <div class="container-fluid justify-content-center ">
-            <a class="navbar-brand" href="#">
-              <img src="" alt="Logo do Site" width="30" height="24">
+          <div class="container-fluid justify-content-center tamanhoNavbar">
+            <a class="navbar-brand" href="index.html">
+              <img src="Imagens/LOGO ARTES.jpg" class="ajusteLogo" alt="Logo do Site" width="30" height="24">
             </a>
           </div>
         </nav>
@@ -24,310 +24,312 @@
 
     <div class="boxMenuTransparente">
 
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Nome do Site</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+      <nav class="navbar navbar-expand-lg navbar-menu-overlay">
 
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav mx-auto">
-              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
-                  data-bs-toggle="dropdown" aria-expanded="false">Obras de arte</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Todas as obras</a></li>
-                  <li><a class="dropdown-item" href="#">Novas obras</a></li>
-                </ul>
-              </li>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
-                  data-bs-toggle="dropdown" aria-expanded="false">Pintores</a>
-                <ul class="dropdown-menu dropdown-menu-coluna">
-                  <div class="dropdown-coluna-container">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav mx-auto">
 
-                    <div class="dropdown-coluna">
-                      <li><a class="dropdown-item" href="vincentVanGogh.html">Vincent van Gogh</a></li>
-                      <li><a class="dropdown-item" href="ClaudeMonet.html">Claude Monet</a></li>
-                      <li><a class="dropdown-item" href="CamillePissarro.html">Camille Pissarro</a></li>
-                      <li><a class="dropdown-item" href="PabloPicasso.html">Pablo Picasso</a></li>
-                      <li><a class="dropdown-item" href="LeonardoDaVinci.html">Leonardo da Vinci</a></li>
-                    </div>
+            <li class="nav-item"><a class="nav-link" href="index.html" role="button" aria-expanded="false">Início</a>
+            </li>
 
-                    <div class="dropdown-coluna">
-                      <li><a class="dropdown-item" href="SalvadorDalí.html">Salvador Dalí</a></li>
-                      <li><a class="dropdown-item" href="FridaKahlo.html">Frida Kahlo</a></li>
-                      <li><a class="dropdown-item" href="Rembrandt.html">Rembrandt</a></li>
-                      <li><a class="dropdown-item" href="Michelangelo.html">Michelangelo</a></li>
-                      <li><a class="dropdown-item" href="JohannesVermeer.html">Johannes Vermeer</a></li>
-                    </div>
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">Obras de arte</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Todas as obras</a></li>
+                <li><a class="dropdown-item" href="#">Novas obras</a></li>
+              </ul>
+            </li>
 
-                    <div class="dropdown-coluna">
-                      <li><a class="dropdown-item" href="EdvardMunch.html">Edvard Munch</a></li>
-                      <li><a class="dropdown-item" href="AndyWarhol.html">Andy Warhol</a></li>
-                      <li><a class="dropdown-item" href="JacksonPollock.html">Jackson Pollock</a></li>
-                      <li><a class="dropdown-item" href="HenriMatisse.html">Henri Matisse</a></li>
-                      <li><a class="dropdown-item" href="PaulCezanne.html">Paul Cézanne</a></li>
-                    </div>
+            <li class="nav-item dropdown active"> <!-- ALTERADO: adicionada classe 'active' -->
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Pintores</a>
+              <ul class="dropdown-menu dropdown-menu-coluna">
+                <div class="dropdown-coluna-container">
 
+                  <div class="dropdown-coluna">
+                    <li><a class="dropdown-item active" href="vincentVanGogh.html">Vincent van Gogh</a></li>
+                    <!-- ALTERADO: adicionada classe 'active' -->
+                    <li><a class="dropdown-item" href="ClaudeMonet.html">Claude Monet</a></li>
+                    <li><a class="dropdown-item" href="CamillePissarro.html">Camille Pissarro</a></li>
+                    <li><a class="dropdown-item" href="PabloPicasso.html">Pablo Picasso</a></li>
+                    <li><a class="dropdown-item" href="LeonardoDaVinci.html">Leonardo da Vinci</a></li>
                   </div>
-                </ul>
-              </li>
 
-              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
-                  data-bs-toggle="dropdown" aria-expanded="false">Obras por tema</a>
-                <ul class="dropdown-menu">
-                  <div class="dropdown-coluna-container">
-
-                    <div class="dropdown-coluna">
-                      <li><a class="dropdown-item" href="#">Religioso</a></li>
-                      <li><a class="dropdown-item" href="#">Mitologia</a></li>
-                      <li><a class="dropdown-item" href="#">Paisagem</a></li>
-                      <li><a class="dropdown-item" href="#">Marinha</a></li>
-                      <li><a class="dropdown-item" href="#">Floral</a></li>
-                      <li><a class="dropdown-item" href="#">Natureza morta</a></li>
-                    </div>
-
-                    <div class="dropdown-coluna">
-                      <li><a class="dropdown-item" href="#">Animal</a></li>
-                      <li><a class="dropdown-item" href="#">Abstrato</a></li>
-                      <li><a class="dropdown-item" href="#">Musical</a></li>
-                      <li><a class="dropdown-item" href="#">Guerra</a></li>
-                      <li><a class="dropdown-item" href="#">Retrato</a></li>
-                      <li><a class="dropdown-item" href="#">Monumento</a></li>
-                    </div>
-
+                  <div class="dropdown-coluna">
+                    <li><a class="dropdown-item" href="SalvadorDalí.html">Salvador Dalí</a></li>
+                    <li><a class="dropdown-item" href="FridaKahlo.html">Frida Kahlo</a></li>
+                    <li><a class="dropdown-item" href="Rembrandt.html">Rembrandt</a></li>
+                    <li><a class="dropdown-item" href="Michelangelo.html">Michelangelo</a></li>
+                    <li><a class="dropdown-item" href="JohannesVermeer.html">Johannes Vermeer</a></li>
                   </div>
-                </ul>
-              </li>
 
-              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
-                  data-bs-toggle="dropdown" aria-expanded="false">Informações</a>
-                <ul class="dropdown-menu">
-                  <div class="dropdown-coluna-container">
-
-                    <div class="dropdown-coluna">
-                      <li><a class="dropdown-item" href="#">Contato</a></li>
-                      <li><a class="dropdown-item" href="#">localização</a></li>
-                      <li><a class="dropdown-item" href="termoDeUso.html">Termos de uso</a></li>
-                      <li><a class="dropdown-item" href="privacidade.html">Privacidade</a></li>
-                      <li><a class="dropdown-item" href="#">Sobre nós</a></li>
-                    </div>
-
+                  <div class="dropdown-coluna">
+                    <li><a class="dropdown-item" href="EdvardMunch.html">Edvard Munch</a></li>
+                    <li><a class="dropdown-item" href="caravaggio.html">Caravaggio</a></li>
+                    <li><a class="dropdown-item" href="JacksonPollock.html">Jackson Pollock</a></li>
+                    <li><a class="dropdown-item" href="HenriMatisse.html">Henri Matisse</a></li>
+                    <li><a class="dropdown-item" href="PaulCezanne.html">Paul Cézanne</a></li>
                   </div>
-                </ul>
-              </li>
 
-            </ul>
-          </div>
+                </div>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">Obras por tema</a>
+              <ul class="dropdown-menu">
+                <div class="dropdown-coluna-container">
+
+                  <div class="dropdown-coluna">
+                    <li><a class="dropdown-item" href="#">Religioso</a></li>
+                    <li><a class="dropdown-item" href="#">Mitologia</a></li>
+                    <li><a class="dropdown-item" href="#">Paisagem</a></li>
+                    <li><a class="dropdown-item" href="#">Marinha</a></li>
+                    <li><a class="dropdown-item" href="#">Floral</a></li>
+                    <li><a class="dropdown-item" href="#">Natureza morta</a></li>
+                  </div>
+
+                  <div class="dropdown-coluna">
+                    <li><a class="dropdown-item" href="#">Animal</a></li>
+                    <li><a class="dropdown-item" href="#">Abstrato</a></li>
+                    <li><a class="dropdown-item" href="#">Musical</a></li>
+                    <li><a class="dropdown-item" href="#">Guerra</a></li>
+                    <li><a class="dropdown-item" href="#">Retrato</a></li>
+                    <li><a class="dropdown-item" href="#">Monumento</a></li>
+                  </div>
+
+                </div>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">Informações</a>
+              <ul class="dropdown-menu">
+                <div class="dropdown-coluna-container">
+
+                  <div class="dropdown-coluna">
+                    <li><a class="dropdown-item" href="#">Contato</a></li>
+                    <li><a class="dropdown-item" href="#">localização</a></li>
+                    <li><a class="dropdown-item" href="termoDeUso.html">Termos de uso</a></li>
+                    <li><a class="dropdown-item" href="privacidade.html">Privacidade</a></li>
+                    <li><a class="dropdown-item" href="#">Sobre nós</a></li>
+                  </div>
+
+                </div>
+              </ul>
+            </li>
+
+          </ul>
         </div>
-      </nav>
+    </div>
+    </nav>
 
-      <div class="boxBannerArtista"><img src="Imagens/van-gogh-trigocorvos-d-450x216.jpg"  width="100%" height="400px" alt=""></div><br><br>
+    <div class="boxBannerArtista"><img src="imgArtista/VINCENTE VAN GOGH/CAMPO DE TRIGO COM CORVOS.jpg"
+        class="tamanhoBannerPintores" alt=""></div><br><br>
 
-      <div class="boxTxt">
-
-        <h1>Vincent Van Gogh</h1>
-
-        <p>Vincent van Gogh foi um pintor pós-impressionista holandês, cultuado como uma das figuras mais famosas e
-          influentes da história da arte ocidental. Em vida, ele criou mais de dois mil trabalhos, incluindo 860
-          pinturas,
-          concluídas em grande parte nos seus dois últimos anos de vida. Suas obras incluem paisagens, natureza-morta,
-          retratos e autorretratos, caracterizados por pinceladas generosas e impulsivas, cores dramáticas e vibrantes.
-          Seu trabalho foi marcante para a arte moderna e o estilo de van Gogh tornou-se inconfundível.
-          Ele nasceu em uma família de classe média alta com orientações fortemente religiosas e começou a desenhar
-          ainda
-          criança. Quando jovem trabalhou como vendedor de arte, viajando frequentemente. Porém, entrou em depressão
-          depois de ser transferido para Londres, quando se voltou para a religião, tendo passado algum tempo como
-          missionário protestante na Bélgica. Ao longo dos anos enfrentou problemas de saúde e solidão, até começar a
-          pintar em 1881.
-          À partir de então sua produção não parou mais, seus quadros passaram a refletir os locais onde viveu e foram
-          fortemente influenciados pelo irmão Theo com quem se correspondia. Seus dois últimos anos foram ricos em
-          criatividade e culminaram com sua controversa morte cheia de mistérios.</p>
-
-      </div>
-
-
-      <div class="container">
-
-        <!--Grid row-->
+    <div class="row ">
+      <div class="col-md-12">
         <div class="row">
-          <!--Grid column-->
-          <div class="col-lg-4 col-md-12 mb-4">
-            <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp"
-              class="img-fluid rounded-4 shadow-2-strong" alt="Hollywood Sign on The Hill" />
-          </div>
-          <!--Grid column-->
+          <div class="col-md-6">
 
-          <!--Grid column-->
-          <div class="col-lg-4 col-md-6 mb-4">
-            <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/031.webp"
-              class="img-fluid rounded-4 shadow-2-strong" alt="Five Lands National Park" />
-          </div>
+            <p>
+              Vincent van Gogh foi um pintor pós-impressionista holandês, cultuado como uma das figuras mais famosas e
+              influentes da história da arte ocidental. Em vida, ele criou mais de dois mil trabalhos, incluindo 860
+              pinturas,
+              concluídas em grande parte nos seus dois últimos anos de vida. Suas obras incluem paisagens,
+              natureza-morta,
+              retratos e autorretratos, caracterizados por pinceladas generosas e impulsivas, cores dramáticas e
+              vibrantes.
+              Seu trabalho foi marcante para a arte moderna e o estilo de van Gogh tornou-se inconfundível.
+              Ele nasceu em uma família de classe média alta com orientações fortemente religiosas e começou a desenhar
+              ainda
+              criança. Quando jovem trabalhou como vendedor de arte, viajando frequentemente. Porém, entrou em depressão
+              depois de ser transferido para Londres, quando se voltou para a religião, tendo passado algum tempo como
+              missionário protestante na Bélgica. Ao longo dos anos enfrentou problemas de saúde e solidão, até começar
+              a
+              pintar em 1881.
+              À partir de então sua produção não parou mais, seus quadros passaram a refletir os locais onde viveu e
+              foram
+              fortemente influenciados pelo irmão Theo com quem se correspondia. Seus dois últimos anos foram ricos em
+              criatividade e culminaram com sua controversa morte cheia de mistérios. </p>
 
-          <!--Grid column-->
 
-          <!--Grid column-->
-          <div class="col-lg-4 col-md-6 mb-4">
-            <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp"
-              class="img-fluid rounded-4 shadow-2-strong" alt="Los Angeles Skyscrapers" />
           </div>
-          <!--Grid column-->
+          <div class="col-md-6">
+            <img alt="Bootstrap Image Preview" src="imgArtista/VINCENTE VAN GOGH/Van-Gogh.jpg"
+              class="tamanhoImgArtista" />
+          </div>
         </div>
-        <!--Grid row-->
-
-        <!--Grid row-->
-        <div class="row">
-          <!--Grid column-->
-          <div class="col-lg-4 col-md-12 mb-4">
-            <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.webp"
-              class="img-fluid rounded-4 shadow-2-strong" alt="Skyscrapers" />
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-lg-4 col-md-6 mb-4">
-            <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/045.webp"
-              class="img-fluid rounded-4 shadow-2-strong" alt="New York City" />
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-lg-4 col-md-6 mb-4">
-            <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/046.webp"
-              class="img-fluid rounded-4 shadow-2-strong" alt="American Home" />
-          </div>
-          <!--Grid column-->
-        </div>
-        <!--Grid row-->
-
       </div>
-
     </div>
+    <br><br><br><br><br>
 
-<!-- Footer -->
-<footer class="text-center text-lg-start bg-body-tertiary text-muted">
-  <!-- Section: Social media -->
-  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-    <!-- Left -->
-    <div class="me-5 d-none d-lg-block">
-      <span>Get connected with us on social networks:</span>
-    </div>
-    <!-- Left -->
-
-    <!-- Right -->
-    <div>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-google"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-linkedin"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
-    <!-- Right -->
-  </section>
-  <!-- Section: Social media -->
-
-  <!-- Section: Links  -->
-  <section class="">
-    <div class="container text-center text-md-start mt-5">
-      <!-- Grid row -->
-      <div class="row mt-3">
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-          <!-- Content -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-gem me-3"></i>Company name
-          </h6>
-          <p>
-            Here you can use rows and columns to organize your footer content. Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit.
-          </p>
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            Products
-          </h6>
-          <p>
-            <a href="#!" class="text-reset">Angular</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">React</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Vue</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Laravel</a>
-          </p>
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            Useful links
-          </h6>
-          <p>
-            <a href="#!" class="text-reset">Pricing</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Settings</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Orders</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Help</a>
-          </p>
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
-          <p>
-            <i class="fas fa-envelope me-3"></i>
-            info@example.com
-          </p>
-          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
-        </div>
-        <!-- Grid column -->
-      </div>
-      <!-- Grid row -->
-    </div>
-  </section>
-  <!-- Section: Links  -->
-
-  <!-- Copyright -->
-  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-    © 2021 Copyright:
-    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
   </div>
-  <!-- Copyright -->
-</footer>
-<!-- Footer -->
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="imgArtista/VINCENTE VAN GOGH/CAMPO DE TRIGO COM CORVOS.jpg" class="tamanhoImgCard" alt="">
+          <p>Van Gogh. Campo de Trigo com Corvos, 1890 <br> Óleo sobre a tela 50 cm x 1,03 m<br> Museu Van Gogh
+            (Holanda)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/VINCENTE VAN GOGH/Lirios-Van-Gogh.jpg" class="tamanhoImgCard" alt="">
+          <p>Van Gogh. Lírios, 1889 <br> Óleo sobre a tela 71 cm x 93 cm <br> Museu J. Paul Getty (EUA)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/VINCENTE VAN GOGH/Van-Gogh-potato-eaters.jpg" class="tamanhoImgCard" alt="">
+          <p>Van Gogh. Os Comedores de Batata, 1885 <br>Óleo sobre a tela 82 cm x 1,14 m <br> Museu Van Gogh (Holanda)
+          </p>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="imgArtista/VINCENTE VAN GOGH/Os-girassois.jpeg" class="tamanhoImgCard" alt="">
+          <p>Van Gogh. Os Girassóis, 1888 <br> Óleo sobre a tela 91 cm × 72 cm <br>Neue Pinakothek (Alemanha)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/VINCENTE VAN GOGH/O-quarto-em-Arles.jpg" class="tamanhoImgCard" alt="">
+          <p>Van Gogh. Quarto em Arles, 1888 <br> Óleo sobre a tela 73,6 cm × 92,3 cm <br> The Art Institute of Chicago
+            (EUA)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/VINCENTE VAN GOGH/A NOITE ESTRELADA.jpg" class="tamanhoImgCard" alt="">
+          <p>Van Gogh. Noite Estrelada, 1889<br>Óleo sobre a tela 74 cm × 92 cm <br>Museu de Arte Moderna (NY)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Company name
+            </h6>
+            <p>
+              Here you can use rows and columns to organize your footer content. Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Angular</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">React</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Vue</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Laravel</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              info@example.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
 
   </div>
 

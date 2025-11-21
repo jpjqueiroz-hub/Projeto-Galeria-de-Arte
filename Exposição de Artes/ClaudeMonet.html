@@ -3,28 +3,29 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="bootstrap/css/style.css">
+<link rel="stylesheet" href="bootstrap/css/pintores.css">
 <title>Claude Monet</title>
 
 <body>
 
-  <div class="row">
-    <div class="col-md-12">
-      <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid justify-content-center ">
-          <a class="navbar-brand" href="#">
-            <img src="" alt="Logo do Site" width="30" height="24">
-          </a>
-        </div>
-      </nav>
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="col-md-12 tamanhoNavbar">
+        <nav class="navbar bg-body-tertiary">
+          <div class="container-fluid justify-content-center tamanhoNavbar">
+            <a class="navbar-brand" href="index.html">
+              <img src="Imagens/LOGO ARTES.jpg" class="ajusteLogo" alt="Logo do Site" width="30" height="24">
+            </a>
+          </div>
+        </nav>
+      </div>
     </div>
-  </div>
 
-  <div class="boxMenuTransparente">
+    <div class="boxMenuTransparente">
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Nome do Site</a>
+      <nav class="navbar navbar-expand-lg navbar-menu-overlay">
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -32,6 +33,10 @@
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav mx-auto">
+
+            <li class="nav-item"><a class="nav-link" href="index.html" role="button" aria-expanded="false">Início</a>
+            </li>
+
             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">Obras de arte</a>
               <ul class="dropdown-menu">
@@ -40,14 +45,16 @@
               </ul>
             </li>
 
-            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">Pintores</a>
+            <li class="nav-item dropdown active"> <!-- ALTERADO: adicionada classe 'active' -->
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Pintores</a>
               <ul class="dropdown-menu dropdown-menu-coluna">
                 <div class="dropdown-coluna-container">
 
                   <div class="dropdown-coluna">
                     <li><a class="dropdown-item" href="vincentVanGogh.html">Vincent van Gogh</a></li>
-                    <li><a class="dropdown-item" href="ClaudeMonet.html">Claude Monet</a></li>
+                    <!-- ALTERADO: adicionada classe 'active' -->
+                    <li><a class="dropdown-item active" href="ClaudeMonet.html">Claude Monet</a></li>
                     <li><a class="dropdown-item" href="CamillePissarro.html">Camille Pissarro</a></li>
                     <li><a class="dropdown-item" href="PabloPicasso.html">Pablo Picasso</a></li>
                     <li><a class="dropdown-item" href="LeonardoDaVinci.html">Leonardo da Vinci</a></li>
@@ -63,7 +70,7 @@
 
                   <div class="dropdown-coluna">
                     <li><a class="dropdown-item" href="EdvardMunch.html">Edvard Munch</a></li>
-                    <li><a class="dropdown-item" href="AndyWarhol.html">Andy Warhol</a></li>
+                    <li><a class="dropdown-item" href="caravaggio.html">Caravaggio</a></li>
                     <li><a class="dropdown-item" href="JacksonPollock.html">Jackson Pollock</a></li>
                     <li><a class="dropdown-item" href="HenriMatisse.html">Henri Matisse</a></li>
                     <li><a class="dropdown-item" href="PaulCezanne.html">Paul Cézanne</a></li>
@@ -119,11 +126,203 @@
 
           </ul>
         </div>
-      </div>
+    </div>
     </nav>
 
-    <div class="boxBannerArtista"></div>
-    
+    <div class="boxBannerArtista"><img src="imgArtista/CLAUDE MONET/CANTEIRO DE IRIS NO JARDIM GIVERNY.jpg"
+        class="tamanhoBannerPintores" alt=""></div><br><br>
+
+    <div class="row ">
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-6">
+
+            <p>
+              Claude Monet é o principal e mais dedicado representante do Impressionismo. Sempre preferiu a pintura ao
+              ar livre, não importando as condições climáticas, com o objetivo de capturar todos os efeitos da natureza.
+              Foi incompreendido no começo da sua carreira, especialmente por sua família e teve dificuldades
+              financeiras por anos. Somente por volta dos seus 40 anos de idade passou a ter sucesso com seus quadros,
+              morreu como um artista rico e consagrado.
+              O termo impressionismo surgiu devido a um dos primeiros quadros de Monet, “Impressão, nascer do sol”, de
+              uma crítica feita ao quadro pelo pintor e escritor Louis Leroy: “Impressão, nascer do Sol” – eu bem o
+              sabia! Pensava eu, justamente, se estou impressionado é porque há lá uma impressão. E que liberdade, que
+              suavidade de pincel! Um papel de parede é mais elaborado que esta cena marinha. A expressão foi usada
+              originalmente de forma pejorativa, mas Monet e seus colegas adotaram o título, tendo consciência da
+              revolução que estavam a iniciar na pintura. </p>
+
+
+          </div>
+
+          <div class="col-md-6">
+            <img alt="Bootstrap Image Preview" src="imgArtista/CLAUDE MONET/Claude_Monet_retrato.png"
+              class="tamanhoImgArtista" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br><br><br><br>
+
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="imgArtista/CLAUDE MONET/A LAGOA DE LIRIOS D´´AGUA.jpg" class="tamanhoImgCard" alt="">
+          <p>Monet. A Lagoa de Lírios d'Água, 1908 <br>Óleo sobre tela 92 cm x 90 cm <br>Coleções Particulares (localização variável)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/CLAUDE MONET/A PRAIA DE SAINTE-ADRESSE.jpg" class="tamanhoImgCard" alt="">
+          <p>Claude Monet. A Praia de Sainte-Adresse, 1867 <br> Óleo sobre tela 76 cm x 1,03 m <br> The Art Institute of Chicago (EUA)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/CLAUDE MONET/CAMPO DE PAPOULAS.jpg" class="tamanhoImgCard" alt="">
+          <p>Claude Monet. Campo de Papoulas, 1873<br>Óleo sobre tela 50 cm x 65 cm <br> Museu d'Orsay (França)
+          </p>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="imgArtista/CLAUDE MONET/CANTEIRO DE IRIS NO JARDIM GIVERNY.jpg" class="tamanhoImgCard" alt="">
+          <p>Claude Monet. Canteiro de Iris no Jardim Giverny, 1900 <br> Óleo sobre tela 81 cm x 92 cm <br>Museu d'Orsay (França)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/CLAUDE MONET/JARDIM EM SAINTE-ADRESSE.jpg" class="tamanhoImgCard" alt="">
+          <p>Claude Monet. Jardim em Sainte-Adresse, 1867 <br> Óleo sobre tela 98 cm x 1,30 m <br> The Metropolitan Museum of Art (EUA)
+            (EUA)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/CLAUDE MONET/MULHER COM SOMBRINHA.jpg" class="tamanhoImgCard" alt="">
+          <p>Claude Monet. Mulher com Sombrinha, 1875<br>Óleo sobre tela 1,00 m x 81 cm<br>National Gallery of Art (EUA)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Company name
+            </h6>
+            <p>
+              Here you can use rows and columns to organize your footer content. Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Angular</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">React</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Vue</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Laravel</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              info@example.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
   </div>
 
   <script src="bootstrap/js/popper.min.js"></script>
