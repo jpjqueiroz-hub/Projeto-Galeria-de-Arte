@@ -22,7 +22,7 @@
       <nav class="navbar bg-body-tertiary">
         <div class="container-fluid justify-content-center tamanhoNavbar">
            <a class="navbar-brand" href="index.html">
-             <img src="Imagens/LOGO_ARTES-removebg-preview.png" class="ajusteLogo" alt="Logo do Site" width="30" height="24">
+             <img src="Imagens/LOGO ARTES.jpg" class="ajusteLogo" alt="Logo do Site" width="30" height="24">
            </a>
         </div>
       </nav>
@@ -36,120 +36,116 @@
   <div class="col-md-12">
 <div class="boxMenuTransparente">
 
-  <nav class="navbar navbar-expand-lg navbar-menu-overlay ">
-    <div class="container-fluid ">
+  <nav class="navbar navbar-expand-lg navbar-menu-overlay">
 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-          </button>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav mx-auto">
 
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav mx-auto"> <!--botões do menu centralizados-->
+        <li class="nav-item active"><a class="nav-link" href="index.html" role="button" aria-expanded="false">Início</a>
+        </li>
 
+        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">Obras de arte</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Todas as obras</a></li>
+            <li><a class="dropdown-item" href="#">Novas obras</a></li>
+          </ul>
+        </li>
 
-        <li class="nav-item "><a class="nav-link" href="index.html" role="button"
-               aria-expanded="false">Início</a>
-          </li>
+        <li class="nav-item dropdown "> <!-- ALTERADO: adicionada classe 'active' -->
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">Pintores</a>
+          <ul class="dropdown-menu dropdown-menu-coluna">
+            <div class="dropdown-coluna-container">
 
-          <li class="nav-item dropdown corMenu"><a class="nav-link dropdown-toggle corMenu" href="#" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">Obras de arte</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Todas as obras</a></li>
-              <li><a class="dropdown-item" href="#">Novas obras</a></li>
-            </ul>
-          </li>
-   
-
-
-          
-          <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">Pintores</a>
-            <ul class="dropdown-menu dropdown-menu-coluna">
-              <div class="dropdown-coluna-container">
-
-                <div class="dropdown-coluna">
-                  <li><a class="dropdown-item" href="vincentVanGogh.html">Vincent van Gogh</a></li>
-                  <li><a class="dropdown-item" href="ClaudeMonet.html">Claude Monet</a></li>
-                  <li><a class="dropdown-item" href="CamillePissarro.html">Camille Pissarro</a></li>
-                  <li><a class="dropdown-item" href="PabloPicasso.html">Pablo Picasso</a></li>
-                  <li><a class="dropdown-item" href="LeonardoDaVinci.html">Leonardo da Vinci</a></li>
-                </div>
-
-                  <div class="dropdown-coluna">
-                    <li><a class="dropdown-item" href="SalvadorDalí.html">Salvador Dalí</a></li>
-                    <li><a class="dropdown-item" href="FridaKahlo.html">Frida Kahlo</a></li>
-                    <li><a class="dropdown-item" href="Rembrandt.html">Rembrandt</a></li>
-                    <li><a class="dropdown-item" href="Michelangelo.html">Michelangelo</a></li>
-                    <li><a class="dropdown-item" href="JohannesVermeer.html">Johannes Vermeer</a></li>
-                  </div>
-
-                  <div class="dropdown-coluna">
-                    <li><a class="dropdown-item" href="EdvardMunch.html">Edvard Munch</a></li>
-                    <li><a class="dropdown-item" href="caravaggio.html">Caravaggio</a></li>
-                    <li><a class="dropdown-item" href="JacksonPollock.html">Jackson Pollock</a></li>
-                    <li><a class="dropdown-item" href="HenriMatisse.html">Henri Matisse</a></li>
-                    <li><a class="dropdown-item" href="PaulCezanne.html">Paul Cézanne</a></li>
-                  </div>
-
+              <div class="dropdown-coluna">
+                <li><a class="dropdown-item " href="vincentVanGogh.html">Vincent van Gogh</a></li>
+                <!-- ALTERADO: adicionada classe 'active' -->
+                <li><a class="dropdown-item" href="ClaudeMonet.html">Claude Monet</a></li>
+                <li><a class="dropdown-item" href="CamillePissarro.html">Camille Pissarro</a></li>
+                <li><a class="dropdown-item" href="PabloPicasso.html">Pablo Picasso</a></li>
+                <li><a class="dropdown-item" href="LeonardoDaVinci.html">Leonardo da Vinci</a></li>
               </div>
-            </ul>
-          </li>
 
-          <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">Obras por tema</a>
-            <ul class="dropdown-menu">
-              <div class="dropdown-coluna-container">
-
-                <div class="dropdown-coluna">
-                  <li><a class="dropdown-item" href="#">Religioso</a></li>
-                  <li><a class="dropdown-item" href="#">Mitologia</a></li>
-                  <li><a class="dropdown-item" href="#">Paisagem</a></li>
-                  <li><a class="dropdown-item" href="#">Marinha</a></li>  
-                  <li><a class="dropdown-item" href="#">Floral</a></li>
-                  <li><a class="dropdown-item" href="#">Natureza morta</a></li>
-                </div>
-
-                <div class="dropdown-coluna">
-                  <li><a class="dropdown-item" href="#">Animal</a></li>
-                  <li><a class="dropdown-item" href="#">Abstrato</a></li>
-                  <li><a class="dropdown-item" href="#">Musical</a></li>
-                  <li><a class="dropdown-item" href="#">Guerra</a></li>
-                  <li><a class="dropdown-item" href="#">Retrato</a></li>  
-                  <li><a class="dropdown-item" href="#">Monumento</a></li>
-                </div>
-
+              <div class="dropdown-coluna">
+                <li><a class="dropdown-item" href="SalvadorDalí.html">Salvador Dalí</a></li>
+                <li><a class="dropdown-item" href="FridaKahlo.html">Frida Kahlo</a></li>
+                <li><a class="dropdown-item" href="Rembrandt.html">Rembrandt</a></li>
+                <li><a class="dropdown-item" href="Michelangelo.html">Michelangelo</a></li>
+                <li><a class="dropdown-item" href="JohannesVermeer.html">Johannes Vermeer</a></li>
               </div>
-            </ul>
-          </li>
 
-          <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">Informações</a>
-            <ul class="dropdown-menu">
-              <div class="dropdown-coluna-container">
-
-                <div class="dropdown-coluna">
-                  <li><a class="dropdown-item" href="#">Contato</a></li>
-                  <li><a class="dropdown-item" href="termoDeUso.html">Termos de uso</a></li>
-                  <li><a class="dropdown-item" href="privacidade.html">Privacidade</a></li>
-                  <li><a class="dropdown-item" href="#">Sobre nós</a></li>
-                </div>
-
+              <div class="dropdown-coluna">
+                <li><a class="dropdown-item" href="EdvardMunch.html">Edvard Munch</a></li>
+                <li><a class="dropdown-item" href="caravaggio.html">Caravaggio</a></li>
+                <li><a class="dropdown-item" href="JacksonPollock.html">Jackson Pollock</a></li>
+                <li><a class="dropdown-item" href="HenriMatisse.html">Henri Matisse</a></li>
+                <li><a class="dropdown-item" href="PaulCezanne.html">Paul Cézanne</a></li>
               </div>
-            </ul>
-          </li>
 
+            </div>
+          </ul>
+        </li>
 
-        </ul>
-      </div>
+        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">Obras por tema</a>
+          <ul class="dropdown-menu">
+            <div class="dropdown-coluna-container">
+
+              <div class="dropdown-coluna">
+                <li><a class="dropdown-item" href="#">Religioso</a></li>
+                <li><a class="dropdown-item" href="#">Mitologia</a></li>
+                <li><a class="dropdown-item" href="#">Paisagem</a></li>
+                <li><a class="dropdown-item" href="#">Marinha</a></li>
+                <li><a class="dropdown-item" href="#">Floral</a></li>
+                <li><a class="dropdown-item" href="#">Natureza morta</a></li>
+              </div>
+
+              <div class="dropdown-coluna">
+                <li><a class="dropdown-item" href="#">Animal</a></li>
+                <li><a class="dropdown-item" href="#">Abstrato</a></li>
+                <li><a class="dropdown-item" href="#">Musical</a></li>
+                <li><a class="dropdown-item" href="#">Guerra</a></li>
+                <li><a class="dropdown-item" href="#">Retrato</a></li>
+                <li><a class="dropdown-item" href="#">Monumento</a></li>
+              </div>
+
+            </div>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">Informações</a>
+          <ul class="dropdown-menu">
+            <div class="dropdown-coluna-container">
+
+              <div class="dropdown-coluna">
+                <li><a class="dropdown-item" href="#">Contato</a></li>
+                <li><a class="dropdown-item" href="termoDeUso.html">Termos de uso</a></li>
+                <li><a class="dropdown-item" href="privacidade.html">Privacidade</a></li>
+                <li><a class="dropdown-item" href="#">Sobre nós</a></li>
+              </div>
+
+            </div>
+          </ul>
+        </li>
+
+      </ul>
     </div>
-  </nav>
+</div>
+</nav>
 
 
   <!--Carrossel-->
 
-  <div id="carouselExampleFade" class="carousel slide carousel-fade carousel-custom-height">
+
+
+  <div id="carouselExampleRide" class="carousel slide carousel-custom-height" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="Imagens/imagensCarrossel_1.png" class="d-block w-100" alt="...">
@@ -161,11 +157,11 @@
         <img src="Imagens/imagensCarrossel_3.png" class="d-block w-100" alt="...">
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
