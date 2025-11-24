@@ -1,13 +1,14 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #FCFCFC;
 }
 
 
 .container-fluid{
    margin: 0;
    padding: 0;
-   
+   background-color: #FCFCFC;
 }
 
 .tamanhoNavbar{
@@ -18,28 +19,42 @@ body {
   height: 100px ;
 }
 
+.navbar-nav .nav-item.active .nav-link {
+  color: #659aeb !important;
+  font-weight: 600;
+  background-color: rgba(44, 90, 160, 0.1);
+  border-radius: 8px;
+  text-decoration: underline;
 
-/* --- NAVBAR SUPERIOR (LOGO) --- */
-.navbar-top {
-  background: #ffffff;
-  z-index: 10000;
-  position: relative;
 }
 
-/* CONTAINER QUE SEGURA A NAVBAR-INFERIOR E O CARROSSEL */
+/* Estilo para o dropdown item ativo */
+.dropdown-menu .dropdown-item.active {
+  background-color: #2c5aa0;
+  color: white !important;
+  border-left: 3px solid #ffd700;
+}
+
+
+.tamanhoNavbar {
+  height: 100px;
+}
+
+/* CONTAINER QUE SEGURA A NAVBAR-INFERIOR*/
 .boxMenuTransparente {
   position: relative;
 }
 
-/* --- NAVBAR INFERIOR (MENU SOBRE O CARROSSEL) --- */
+/* --- NAVBAR INFERIOR  --- */
 .navbar-menu-overlay {
   position: absolute;
-  top: 0;                
+  top: 0;
   left: 0;
   right: 0;
   z-index: 9999;
   background: transparent !important;
 }
+
 
 .navbar-menu-overlay .nav-link,
 .navbar-menu-overlay .navbar-brand {
@@ -52,7 +67,6 @@ body {
 .navbar-menu-overlay .navbar-toggler-icon {
   filter: invert(1);
 }
-
 
 
 
