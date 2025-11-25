@@ -3,29 +3,30 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="bootstrap/css/style.css">
+<link rel="stylesheet" href="bootstrap/css/pintores.css">
 <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
-<title>Obras</title>
+<title>vincent Van Gogh</title>
 
 <body>
 
-  <div class="row">
-    <div class="col-md-12">
-      <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid justify-content-center ">
-          <a class="navbar-brand" href="#">
-            <img src="" alt="Logo do Site" width="30" height="24">
-          </a>
-        </div>
-      </nav>
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="col-md-12 tamanhoNavbar">
+        <nav class="navbar bg-body-tertiary">
+          <div class="container-fluid justify-content-center tamanhoNavbar">
+            <a class="navbar-brand" href="index.html">
+              <img src="Imagens/LOGO ARTES.jpg" class="ajusteLogo" alt="Logo do Site" width="30" height="24">
+            </a>
+          </div>
+        </nav>
+      </div>
     </div>
-  </div>
 
-  <div class="boxMenuTransparente">
+    <div class="boxMenuTransparente">
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Nome do Site</a>
+      <nav class="navbar navbar-expand-lg navbar-menu-overlay">
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -33,16 +34,20 @@
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav mx-auto">
-            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">Obras de arte</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Todas as obras</a></li>
-                <li><a class="dropdown-item" href="#">Novas obras</a></li>
-              </ul>
+
+            <li class="nav-item"><a class="nav-link" href="index.html" role="button" aria-expanded="false">Início</a>
             </li>
 
             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">Pintores</a>
+                data-bs-toggle="dropdown" aria-expanded="false">Obras de arte</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="tdsObras.html">Todas as obras</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown active"> <!-- ALTERADO: adicionada classe 'active' -->
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Pintores</a>
               <ul class="dropdown-menu dropdown-menu-coluna">
                 <div class="dropdown-coluna-container">
 
@@ -88,33 +93,6 @@
             </li>
 
             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">Obras por tema</a>
-              <ul class="dropdown-menu">
-                <div class="dropdown-coluna-container">
-
-                  <div class="dropdown-coluna">
-                    <li><a class="dropdown-item" href="#">Religioso</a></li>
-                    <li><a class="dropdown-item" href="#">Mitologia</a></li>
-                    <li><a class="dropdown-item" href="#">Paisagem</a></li>
-                    <li><a class="dropdown-item" href="#">Marinha</a></li>
-                    <li><a class="dropdown-item" href="#">Floral</a></li>
-                    <li><a class="dropdown-item" href="#">Natureza morta</a></li>
-                  </div>
-
-                  <div class="dropdown-coluna">
-                    <li><a class="dropdown-item" href="#">Animal</a></li>
-                    <li><a class="dropdown-item" href="#">Abstrato</a></li>
-                    <li><a class="dropdown-item" href="#">Musical</a></li>
-                    <li><a class="dropdown-item" href="#">Guerra</a></li>
-                    <li><a class="dropdown-item" href="#">Retrato</a></li>
-                    <li><a class="dropdown-item" href="#">Monumento</a></li>
-                  </div>
-
-                </div>
-              </ul>
-            </li>
-
-            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">Informações</a>
               <ul class="dropdown-menu">
                 <div class="dropdown-coluna-container">
@@ -132,15 +110,168 @@
 
           </ul>
         </div>
-      </div>
+    </div>
     </nav>
 
-<div class="boxBannerPadrao"></div>
+    <div class="boxBannerArtista"><img src="imgArtista/padrao.jpg"
+        class="tamanhoBannerPintores" alt=""></div><br><br>
 
+    <br><br><br>
 
+  </div>
 
-    <script src="bootstrap/js/popper.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="imgArtista/VINCENTE VAN GOGH/Vincent_van_Gogh_(1853-1890)_-_Wheat_Field_with_Crows_(1890).jpg" class="tamanhoImgCard" alt="">
+          <p>Van Gogh. Campo de Trigo com Corvos, 1890 <br> Óleo sobre a tela 50 cm x 1,03 m<br> Museu Van Gogh
+            (Holanda)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/VINCENTE VAN GOGH/lirios.jpg" class="tamanhoImgCard" alt="">
+          <p>Van Gogh. Lírios, 1889 <br> Óleo sobre a tela 71 cm x 93 cm <br> Museu J. Paul Getty (EUA)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/VINCENTE VAN GOGH/Van-Gogh-potato-eaters.jpg" class="tamanhoImgCard" alt="">
+          <p>Van Gogh. Os Comedores de Batata, 1885 <br>Óleo sobre a tela 82 cm x 1,14 m <br> Museu Van Gogh (Holanda)
+          </p>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="imgArtista/VINCENTE VAN GOGH/Os-girassois.jpeg" class="tamanhoImgCard" alt="">
+          <p>Van Gogh. Os Girassóis, 1888 <br> Óleo sobre a tela 91 cm × 72 cm <br>Neue Pinakothek (Alemanha)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/VINCENTE VAN GOGH/o-quarto-em-arles-van-gogh.webp" class="tamanhoImgCard" alt="">
+          <p>Van Gogh. Quarto em Arles, 1888 <br> Óleo sobre a tela 73,6 cm × 92,3 cm <br> The Art Institute of Chicago
+            (EUA)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/VINCENTE VAN GOGH/noite estrelada.webp" class="tamanhoImgCard" alt="">
+          <p>Van Gogh. Noite Estrelada, 1889<br>Óleo sobre a tela 74 cm × 92 cm <br>Museu de Arte Moderna (NY)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Conecte-se as nossas redes:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Galeria Arte Viva
+          </h6>
+   
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+
+          <p>
+            <a href="index.html" class="text-reset fontesFooter">Início</a>
+          </p>
+          <p>
+            <a href="tdsObras.html" class="text-reset fontesFooter">Todas As Obras</a>
+          </p>
+          <p>
+            <a href="novasObras.html" class="text-reset fontesFooter">Novas Obras</a>
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <p>
+            <a href="todosPintores.html" class="text-reset fontesFooter">Todos os pintores</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset fontesFooter">Obras por Temas</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset fontesFooter">Sobre Nós</a>
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contato</h6>
+          <p><i class="fas fa-home me-3"></i> São Paulo, SP</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            galeriaarteviva@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> +555 11 98765-4321 </p>
+
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+  </div>
+
+  <script src="bootstrap/js/popper.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>
