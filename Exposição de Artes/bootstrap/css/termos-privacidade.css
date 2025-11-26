@@ -1,0 +1,71 @@
+.boxTermos {
+
+    h1 {
+        text-align: center;
+        font-size: 3.2em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    h2 {
+        text-align: left;
+        padding: 0 0 0 40px;
+        font-size: 2.1em;
+    }
+
+    h3 {
+        text-align: left;
+        padding: 0 0 0 70px;
+        font-size: 1.5em;
+    }
+
+    p {
+        text-align: justify;
+        padding: 0 0 0 70px;
+        font-size: 1.1em;
+    }
+
+
+    ul {
+        padding: 0 0 0 70px;
+
+        li {
+            font-size: 1.1em;
+        }
+    }
+}
+
+
+.boxPrivacidade{
+        h1 {
+        text-align: center;
+        font-size: 3.2em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    h2 {
+        text-align: left;
+        padding: 0 0 0 40px;
+        font-size: 2.1em;
+    }
+
+    h3 {
+        text-align: left;
+        padding: 0 0 0 70px;
+        font-size: 1.5em;
+    }
+
+    p {
+        text-align: justify;
+        padding: 0 0 0 70px;
+        font-size: 1.1em;
+    }
+
+
+    ul {
+        padding: 0 0 0 70px;
+
+        li {
+            font-size: 1.1em;
+        }
+    }
+}
