@@ -5,6 +5,7 @@
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" >
 <link rel="stylesheet" href="bootstrap/css/style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="bootstrap/css/pintores.css">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
@@ -49,23 +50,17 @@
         <li class="nav-item active"><a class="nav-link" href="index.html" role="button" aria-expanded="false">Início</a>
         </li>
 
-        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
-            data-bs-toggle="dropdown" aria-expanded="false">Obras de arte</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Todas as obras</a></li>
-            <li><a class="dropdown-item" href="#">Novas obras</a></li>
-          </ul>
-        </li>
+            <li class="nav-item"><a class="nav-link" href="tdsObras.html" role="button" aria-expanded="false">Todas as obras</a>
+            </li>
 
-        <li class="nav-item dropdown "> <!-- ALTERADO: adicionada classe 'active' -->
+        <li class="nav-item dropdown ">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
             aria-expanded="false">Pintores</a>
           <ul class="dropdown-menu dropdown-menu-coluna">
             <div class="dropdown-coluna-container">
 
               <div class="dropdown-coluna">
-                    <li><a class="dropdown-item active" href="vincentVanGogh.html">Vincent van Gogh</a></li>
-                    <!-- ALTERADO: adicionada classe 'active' -->
+                    <li><a class="dropdown-item" href="vincentVanGogh.html">Vincent van Gogh</a></li>
                     <li><a class="dropdown-item" href="ClaudeMonet.html">Claude Monet</a></li>
                     <li><a class="dropdown-item" href="CamillePissarro.html">Camille Pissarro</a></li>
                     <li><a class="dropdown-item" href="PabloPicasso.html">Pablo Picasso</a></li>
@@ -110,10 +105,10 @@
             <div class="dropdown-coluna-container">
 
               <div class="dropdown-coluna">
-                <li><a class="dropdown-item" href="#">Contato</a></li>
+                <li><a class="dropdown-item" href="contato.html">Contato</a></li>
                 <li><a class="dropdown-item" href="termoDeUso.html">Termos de uso</a></li>
                 <li><a class="dropdown-item" href="privacidade.html">Privacidade</a></li>
-                <li><a class="dropdown-item" href="#">Sobre nós</a></li>
+                <li><a class="dropdown-item" href="sobre.html">Sobre nós</a></li>
               </div>
 
             </div>
@@ -215,46 +210,46 @@
 
 <div class="row">
   <div class="col-md-12 ajusteBotao">
-    <button type="button" class="btn btn-outline-dark"><a href="todosPintores.html" class="corBotoes">Todos Os Pintores</a></button>
+    <button type="button" class="btn btn-outline-dark"><a href="tdsObras.html" class="corBotoes">Todos Os Pintores</a></button>
   </div>
 </div>
 
-<!-- Footer -->
-<footer class="text-center text-lg-start  text-muted ajusteFooter">
-  <!-- Section: Social media -->
-  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-    <!-- Left -->
-    <div class="me-5 d-none d-lg-block fontesFooter">
-      <span>Conecte-se as nossas redes:</span>
-    </div>
-    <!-- Left -->
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Conecte-se as nossas redes:</span>
+      </div>
+      <!-- Left -->
 
-    <!-- Right -->
-    <div>
-      <a href="" class="me-4 text-reset ajusteRedes">
-        <i class="fab fa-facebook-f "><img src="Imagens/facebook.png" alt=""></i>
-      </a>
-      <a href="" class="me-4 text-reset ajusteRedes">
-        <i class="fab fa-twitter "><img src="Imagens/x.png" alt=""> </i>
-      </a>
-      <a href="" class="me-4 text-reset ajusteRedes">
-        <i class="fab fa-google "> <img src="Imagens/youtube.png" alt=""></i>
-      </a>
-      <a href="" class="me-4 text-reset ajusteRedes">
-        <i class="fab fa-instagram "> <img src="Imagens/instagram.png" alt=""> </i>
-      </a>
-      <a href="" class="me-4 text-reset ajusteRedes">
-        <i class="fab fa-linkedin "><img src="Imagens/linkedin.png" alt=""></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
-    <!-- Right -->
-  </section>
-  <!-- Section: Social media -->
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
 
-  <!-- Section: Links  -->
+    <!-- Section: Links  -->
   <section class="">
     <div class="container text-center text-md-start mt-5">
       <!-- Grid row -->
@@ -280,7 +275,7 @@
             <a href="tdsObras.html" class="text-reset fontesFooter">Todas As Obras</a>
           </p>
           <p>
-            <a href="novasObras.html" class="text-reset fontesFooter">Novas Obras</a>
+            <a href="privacidade.html" class="text-reset fontesFooter">Politica de privacidade</a>
           </p>
 
         </div>
@@ -290,45 +285,33 @@
         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
           <!-- Links -->
           <p>
-            <a href="todosPintores.html" class="text-reset fontesFooter">Todos os pintores</a>
+            <a href="termoDeUso.html" class="text-reset fontesFooter">Termos de uso</a>
           </p>
           <p>
-            <a href="#!" class="text-reset fontesFooter">Obras por Temas</a>
+            <a href="tdsObras.html" class="text-reset fontesFooter">Contato</a>
           </p>
           <p>
-            <a href="#!" class="text-reset fontesFooter">Sobre Nós</a>
+            <a href="sobre.html" class="text-reset fontesFooter">Sobre Nós</a>
           </p>
 
         </div>
         <!-- Grid column -->
 
-        <!-- Grid column -->
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">Contato</h6>
-          <p><i class="fas fa-home me-3"></i> São Paulo, SP</p>
-          <p>
-            <i class="fas fa-envelope me-3"></i>
-            galeriaarteviva@gmail.com
-          </p>
-          <p><i class="fas fa-phone me-3"></i> +555 11 98765-4321 </p>
 
-        </div>
-        <!-- Grid column -->
       </div>
       <!-- Grid row -->
     </div>
   </section>
   <!-- Section: Links  -->
 
-  <!-- Copyright -->
-  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-      Todos Direitos Reservados - 2025
-  </div>
-  <!-- Copyright -->
-</footer>
-<!-- Footer -->
-
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
 
 
 </div>

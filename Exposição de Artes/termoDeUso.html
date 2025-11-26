@@ -4,28 +4,31 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="bootstrap/css/style.css">
+<link rel="stylesheet" href="bootstrap/css/pintores.css">
+<link rel="stylesheet" href="bootstrap/css/termos-privacidade.css">
 <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
 <title>Termo de Uso</title>
 
 <body>
 
-  <div class="row">
-    <div class="col-md-12">
-      <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid justify-content-center ">
-          <a class="navbar-brand" href="#">
-            <img src="" alt="Logo do Site" width="30" height="24">
-          </a>
-        </div>
-      </nav>
+<div class="container-fluid">
+
+    <div class="row">
+      <div class="col-md-12 tamanhoNavbar">
+        <nav class="navbar bg-body-tertiary">
+          <div class="container-fluid justify-content-center tamanhoNavbar">
+            <a class="navbar-brand" href="index.html">
+              <img src="Imagens/LOGO ARTES.jpg" class="ajusteLogo" alt="Logo do Site" width="30" height="24">
+            </a>
+          </div>
+        </nav>
+      </div>
     </div>
-  </div>
 
-  <div class="boxMenuTransparente">
+    <div class="boxMenuTransparente">
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Nome do Site</a>
+      <nav class="navbar navbar-expand-lg navbar-menu-overlay">
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -33,41 +36,34 @@
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav mx-auto">
-            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">Obras de arte</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Todas as obras</a></li>
-                <li><a class="dropdown-item" href="#">Novas obras</a></li>
-              </ul>
+
+            <li class="nav-item"><a class="nav-link" href="index.html" role="button" aria-expanded="false">Início</a>
             </li>
 
-            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">Pintores</a>
+            <li class="nav-item"><a class="nav-link" href="tdsObras.html" role="button" aria-expanded="false">Todas as obras</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Pintores</a>
               <ul class="dropdown-menu dropdown-menu-coluna">
                 <div class="dropdown-coluna-container">
 
-                  <div class="dropdown-coluna">
+                   <div class="dropdown-coluna">
                     <li><a class="dropdown-item" href="vincentVanGogh.html">Vincent van Gogh</a></li>
                     <li><a class="dropdown-item" href="ClaudeMonet.html">Claude Monet</a></li>
                     <li><a class="dropdown-item" href="CamillePissarro.html">Camille Pissarro</a></li>
                     <li><a class="dropdown-item" href="PabloPicasso.html">Pablo Picasso</a></li>
                     <li><a class="dropdown-item" href="LeonardoDaVinci.html">Leonardo da Vinci</a></li>
+                    <li><a class="dropdown-item" href="caravaggio.html">Caravaggio</a></li>                   
                   </div>
 
                   <div class="dropdown-coluna">
                     <li><a class="dropdown-item" href="SalvadorDalí.html">Salvador Dalí</a></li>
                     <li><a class="dropdown-item" href="FridaKahlo.html">Frida Kahlo</a></li>
                     <li><a class="dropdown-item" href="Rembrandt.html">Rembrandt</a></li>
-                    <li><a class="dropdown-item" href="Michelangelo.html">Michelangelo</a></li>
                     <li><a class="dropdown-item" href="JohannesVermeer.html">Johannes Vermeer</a></li>
-                  </div>
-
-                  <div class="dropdown-coluna">
                     <li><a class="dropdown-item" href="EdvardMunch.html">Edvard Munch</a></li>
-                    <li><a class="dropdown-item" href="AndyWarhol.html">Andy Warhol</a></li>
-                    <li><a class="dropdown-item" href="JacksonPollock.html">Jackson Pollock</a></li>
-                    <li><a class="dropdown-item" href="HenriMatisse.html">Henri Matisse</a></li>
-                    <li><a class="dropdown-item" href="PaulCezanne.html">Paul Cézanne</a></li>
                   </div>
 
                 </div>
@@ -89,37 +85,38 @@
                     <li><a class="dropdown-item" href="retrato.html">Retrato</a></li>
                   </div>
 
-
-
                 </div>
               </ul>
             </li>
 
-            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
+            <li class="nav-item dropdown active"><a class="nav-link dropdown-toggle" href="#" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">Informações</a>
               <ul class="dropdown-menu">
                 <div class="dropdown-coluna-container">
 
                   <div class="dropdown-coluna">
-                    <li><a class="dropdown-item" href="#">Contato</a></li>
-                    <li><a class="dropdown-item" href="termoDeUso.html">Termos de uso</a></li>
+                    <li><a class="dropdown-item" href="contato.html">Contato</a></li>
+                    <li><a class="dropdown-item active" href="termoDeUso.html">Termos de uso</a></li>
                     <li><a class="dropdown-item" href="privacidade.html">Privacidade</a></li>
-                    <li><a class="dropdown-item" href="#">Sobre nós</a></li>
+                    <li><a class="dropdown-item" href="sobre.html">Sobre nós</a></li>
                   </div>
 
                 </div>
               </ul>
             </li>
 
-
           </ul>
         </div>
-      </div>
+    </div>
     </nav>
 
-    <div class="boxTermo de uso">
+    <div class="boxBannerArtista"><img src="Imagens/imgTermos.jpg" width="100%" height="600px"
+        class="tamanhoBannerPintores" alt=""></div><br><br>
 
-      <div class="boxBannerTermoDeUso"></div>
+    <br><br><br>
+
+
+    <div class="boxTermoDeUso">
 
       <div class="boxTermos">
 
@@ -127,14 +124,14 @@
 
         <!--termo 1-->
         <h2>1. Aceitação dos Termos</h2>
-        <p>Ao acessar e utilizar o site [nome do site], você concorda em cumprir e estar vinculado aos presentes Termos
+        <p><b>Ao acessar e utilizar o site Galeria de arte viva, você concorda em cumprir e estar vinculado aos presentes Termos
           de
-          Uso. Caso não concorde com estes termos, por favor, não utilize nosso site.</p>
+          Uso. Caso não concorde com estes termos, por favor, não utilize nosso site.</b></p>
 
         <!--termo 2-->
         <h2>2. Descrição do Serviço</h2>
+        <p>Galeria de arte viva é uma plataforma online que:</p>
         <ul>
-          <p>[Nome do site] é uma plataforma online que:</p>
           <li>Exibe obras de arte de artistas cadastrados</li>
           <li>Disponibiliza informações sobre exposições de arte</li>
           <li>Fornece localização e detalhes sobre eventos artísticos</li>
@@ -156,7 +153,7 @@
         </ul>
 
         <!--termo 4-->
-        <h2>4. Cadastro de Artistas</h2>
+        <h2>4. Cadastro de Artistas</h2><br>
         <h3>4.1. Requisitos</h3>
         <ul>
           <li>Artistas devem ser maiores de 18 anos</li>
@@ -172,7 +169,7 @@
         </ul>
 
         <!--termo 5-->
-        <h2>5. Informações de Exposições</h2>
+        <h2>5. Informações de Exposições</h2><br>
         <h3>5.1. Precisão das Informações</h3>
         <ul>
           <li>As informações sobre locais e datas são fornecidas pelos organizadores</li>
@@ -189,7 +186,7 @@
 
         <!--termo 6-->
         <h2>6. Conduta do Usuário</h2>
-        <p>É proibido:</p>
+        <p><b>É proibido:</b></p>
         <ul>
           <li>Utilizar o site para fins ilegais</li>
           <li>Copiar ou distribuir conteúdo sem autorização</li>
@@ -198,7 +195,7 @@
         </ul>
 
         <!--termo 7-->
-        <h2>7. Limitação de Responsabilidade</h2>
+        <h2>7. Limitação de Responsabilidade</h2><br>
         <h3>7.1. Conteúdo</h3>
         <ul>
           <li>Não garantimos a precisão absoluta das informações</li>
@@ -228,16 +225,16 @@
 
         <!--termo 11-->
         <h2>11. Lei Aplicável</h2>
-        <p>Estes Termos são regidos pelas leis do [país] e quaisquer disputas serão resolvidas no foro da comarca de
-          [cidade].</p>
+        <p>Estes Termos são regidos pelas leis do Brasil e quaisquer disputas serão resolvidas no foro da comarca de
+          São Paulo.</p>
 
         <!--termo 12-->
         <h2>12. Contato</h2>
         <p>Para questões sobre estes Termos:</p>
         <ul>
-          <li>Email: [email]</li>
-          <li>Telefone: [telefone]</li>
-          <li>Endereço: [endereço físico]</li>
+          <li>Email: galeriaarteviva@gmail.com</li>
+          <li>Telefone: +55 11 98765-4321</li>
+          <li>Endereço: Rua Tabapuã, 393 - Itaim Bibi, São Paulo</li>
         </ul>
 
       </div>
@@ -246,8 +243,115 @@
 
   </div>
 
+
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Conecte-se as nossas redes:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Galeria Arte Viva
+          </h6>
+   
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+
+          <p>
+            <a href="index.html" class="text-reset fontesFooter">Início</a>
+          </p>
+          <p>
+            <a href="tdsObras.html" class="text-reset fontesFooter">Todas As Obras</a>
+          </p>
+          <p>
+            <a href="privacidade.html" class="text-reset fontesFooter">Politica de privacidade</a>
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <p>
+            <a href="termoDeUso.html" class="text-reset fontesFooter">Termos de uso</a>
+          </p>
+          <p>
+            <a href="tdsObras.html" class="text-reset fontesFooter">Contato</a>
+          </p>
+          <p>
+            <a href="sobre.html" class="text-reset fontesFooter">Sobre Nós</a>
+          </p>
+
+        </div>
+
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+  </div>
+
   <script src="bootstrap/js/popper.min.js"></script>
   <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>
+
+
+
+
+
+

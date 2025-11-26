@@ -3,9 +3,11 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="bootstrap/css/style.css">
 <link rel="stylesheet" href="bootstrap/css/pintores.css">
+<link rel="stylesheet" href="bootstrap/css/termos-privacidade.css">
 <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
-<title>vincent Van Gogh</title>
+<title>Todas as obras</title>
 
 <body>
 
@@ -38,22 +40,17 @@
             <li class="nav-item"><a class="nav-link" href="index.html" role="button" aria-expanded="false">Início</a>
             </li>
 
-            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">Obras de arte</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="tdsObras.html">Todas as obras</a></li>
-              </ul>
+            <li class="nav-item active"><a class="nav-link" href="tdsObras.html" role="button" aria-expanded="false">Todas as obras</a>
             </li>
 
-            <li class="nav-item dropdown active"> <!-- ALTERADO: adicionada classe 'active' -->
+            <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">Pintores</a>
               <ul class="dropdown-menu dropdown-menu-coluna">
                 <div class="dropdown-coluna-container">
 
-                  <div class="dropdown-coluna">
-                    <li><a class="dropdown-item active" href="vincentVanGogh.html">Vincent van Gogh</a></li>
-                    <!-- ALTERADO: adicionada classe 'active' -->
+                   <div class="dropdown-coluna">
+                    <li><a class="dropdown-item" href="vincentVanGogh.html">Vincent van Gogh</a></li>
                     <li><a class="dropdown-item" href="ClaudeMonet.html">Claude Monet</a></li>
                     <li><a class="dropdown-item" href="CamillePissarro.html">Camille Pissarro</a></li>
                     <li><a class="dropdown-item" href="PabloPicasso.html">Pablo Picasso</a></li>
@@ -80,12 +77,12 @@
 
                   <div class="dropdown-coluna">
                     <li><a class="dropdown-item" href="religioso.html">Religioso</a></li>
-                    <li><a class="dropdown-item" href="#">Mitologia</a></li>
-                    <li><a class="dropdown-item" href="#">Paisagem</a></li>
-                    <li><a class="dropdown-item" href="#">Floral</a></li>
-                    <li><a class="dropdown-item" href="#">Natureza morta</a></li>
-                    <li><a class="dropdown-item" href="#">Abstrato</a></li>
-                    <li><a class="dropdown-item" href="#">Retrato</a></li>
+                    <li><a class="dropdown-item" href="mitologia.html">Mitologia</a></li>
+                    <li><a class="dropdown-item" href="paisagem.html">Paisagem</a></li>
+                    <li><a class="dropdown-item" href="floral.html">Floral</a></li>
+                    <li><a class="dropdown-item" href="naturezaMorta.html">Natureza morta</a></li>
+                    <li><a class="dropdown-item" href="Abstrato.html">Abstrato</a></li>
+                    <li><a class="dropdown-item" href="retrato.html">Retrato</a></li>
                   </div>
 
                 </div>
@@ -98,10 +95,10 @@
                 <div class="dropdown-coluna-container">
 
                   <div class="dropdown-coluna">
-                    <li><a class="dropdown-item" href="#">Contato</a></li>
+                    <li><a class="dropdown-item" href="contato.html">Contato</a></li>
                     <li><a class="dropdown-item" href="termoDeUso.html">Termos de uso</a></li>
                     <li><a class="dropdown-item" href="privacidade.html">Privacidade</a></li>
-                    <li><a class="dropdown-item" href="#">Sobre nós</a></li>
+                    <li><a class="dropdown-item" href="sobre.html">Sobre nós</a></li>
                   </div>
 
                 </div>
@@ -113,7 +110,7 @@
     </div>
     </nav>
 
-    <div class="boxBannerArtista"><img src="imgArtista/padrao.jpg"
+    <div class="boxBannerArtista"><img src="Imagens/galeria-de-arte.jpg"
         class="tamanhoBannerPintores" alt=""></div><br><br>
 
     <br><br><br>
@@ -124,34 +121,326 @@
     <div class="col-md-12">
       <div class="row">
         <div class="col-md-4">
-          <img src="imgArtista/VINCENTE VAN GOGH/Vincent_van_Gogh_(1853-1890)_-_Wheat_Field_with_Crows_(1890).jpg" class="tamanhoImgCard" alt="">
-          <p>Van Gogh. Campo de Trigo com Corvos, 1890 <br> Óleo sobre a tela 50 cm x 1,03 m<br> Museu Van Gogh
-            (Holanda)</p>
+          <img src="imgArtista/FRIDA KAHLO/semEsperanca.jpg" class="tamanhoImgCard" alt="">
+          <p>Frida Kahlo. Sem Esperança, 1945<br>Óleo sobre tela montada em masonite 28 cm x 36 cm<br>Museu Dolores Olmedo (Cidade do México)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/CLAUDE MONET/A PRAIA DE SAINTE-ADRESSE.jpg" class="tamanhoImgCard" alt="">
+          <p>Claude Monet. A Praia de Sainte-Adresse, 1867 <br> Óleo sobre tela 76 cm x 1,03 m <br> The Art Institute of Chicago (EUA)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/REMBRANDT/A RONDA NOTURNA.jpg" class="tamanhoImgCard" alt="">
+          <p>Rembrandt. A Ronda Noturna, 1642<br>Óleo sobre tela 379.5 cm x 453.5 cm<br>Rijksmuseum (Holanda)</p>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="imgArtista/SALVADOR DALI/A PERSISTENCIA DA MEMORIA.jpg" class="tamanhoImgCard" alt="">
+          <p>Salvador Dalí. A Persistência da Memória, 1931<br>Óleo sobre tela 24 cm x 33 cm<br>MoMA (Nova Iorque)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/VINCENTE VAN GOGH/noite estrelada.webp" class="tamanhoImgCard" alt="">
+          <p>Van Gogh. Noite Estrelada, 1889<br>Óleo sobre a tela 74 cm × 92 cm <br>Museu de Arte Moderna (NY)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/caravaggio/baco-por-caravaggio-cke.webp" class="tamanhoImgCard" alt="">
+          <p>Caravaggio. Baco, c. 1596 <br>Óleo sobre tela 95 cm x 85 cm<br>Galeria Uffizi (Florença)</p>
+        </div>
+
+<div class="col-md-4">
+          <img src="imgArtista/LEONARDO DA VINCI/MONALISA.jpg" class="tamanhoImgCard" alt="">
+          <p>Leonardo da Vinci. Mona Lisa, c. 1503-1506<br>Óleo sobre choupo 77 cm x 53 cm<br> Museu do Louvre (Paris)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/EDVARD MUNCH/ANSIEDADE.jpg" class="tamanhoImgCard" alt="">
+          <p>Edvard Munch. Ansiedade, 1894<br>Óleo sobre tela 94 cm x 74 cm<br>Museu Munch (Noruega)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/PABLO PICASSO/GUERNICA.jpg" class="tamanhoImgCard" alt="">
+          <p>Pablo Picasso. Guernica, 1937<br>Óleo sobre tela 3.49 m x 7.77 m<br> Museu Rainha Sofia (Madri)</p>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="imgArtista/JOHANNES VERMEER/MEISJE MET DE PAREL.jpg" class="tamanhoImgCard" alt="">
+          <p>Johannes Vermeer. Meisje met de Parel, c. 1665<br>Óleo sobre tela 44.5 cm x 39 cm<br>Mauritshuis (Holanda)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/CAMILLE PISSARRO/BOULEVARD MONTMARTRE DE NOITE.jpg" class="tamanhoImgCard" alt="">
+          <p>Camille Pissarro.  Boulevard Montmartre de Noite, 1897 <br> Óleo sobre tela 53,3 cm x 64,8 cm <br> Galeria Nacional (Londres, Reino Unido)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/SALVADOR DALI/METAMORFOSE DE NARCISO.jpg" class="tamanhoImgCard" alt="">
+          <p>Salvador Dalí. Metamorfose de Narciso, 1937 <br>Óleo sobre tela 51.2 cm x 78.1 cm<br> Tate Modern (Londres)</p>
+        </div>
+
+        <div class="col-md-4">
+          <img src="imgArtista/VINCENTE VAN GOGH/Os-girassois.jpeg" class="tamanhoImgCard" alt="">
+          <p>Van Gogh. Os Girassóis, 1888 <br> Óleo sobre a tela 91 cm × 72 cm <br>Neue Pinakothek (Alemanha)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/CLAUDE MONET/CAMPO DE PAPOULAS.jpg" class="tamanhoImgCard" alt="">
+          <p>Claude Monet. Campo de Papoulas, 1873<br>Óleo sobre tela 50 cm x 65 cm <br> Museu d'Orsay (França)
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/REMBRANDT/DANAE.jpg" class="tamanhoImgCard" alt="">
+          <p>Rembrandt. Danae, 1636<br> Óleo sobre tela 185 cm x 202.5 cm<br>Museu Hermitage (São Petersburgo)</p>
+        </div>
+
+        <div class="col-md-4">
+          <img src="imgArtista/FRIDA KAHLO/AS DUAS FRIDAS.jpg" class="tamanhoImgCard" alt="">
+          <p>Frida Kahlo. As Duas Fridas, 1939 <br> Óleo sobre tela 173.5 cm x 173 cm<br>Museu de Arte Moderna (Cidade do México)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/caravaggio/davi-com-a-cabeca-de-golias.jpg" class="tamanhoImgCard" alt="">
+          <p>Caravaggio. Davi com a Cabeça de Golias, c. 1610<br>Óleo sobre tela 125 cm x 101 cm<br>Galeria Borghese (Roma)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/PABLO PICASSO/LES DEMOISSELES D´´AVIGNON.jpg" class="tamanhoImgCard" alt="">
+          <p>Pablo Picasso. Les Demoiselles d'Avignon, 1907<br> Óleo sobre tela 243.9 cm x 233.7 cm<br>MoMA (Nova Iorque)</p>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="imgArtista/LEONARDO DA VINCI/A ULTIMA CEIA.jpg" class="tamanhoImgCard" alt="">
+          <p>Leonardo da Vinci. A Última Ceia, c. 1495-1498<br> Têmpera sobre gesso 460 cm x 880 cm<br>Convento de Santa Maria delle Grazie (Milão)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/JOHANNES VERMEER/A LEITEIRA.jpg" class="tamanhoImgCard" alt="">
+          <p>Johannes Vermeer. A Leiteira, c. 1658-1660<br>Óleo sobre tela 45.5 cm x 41 cm<br> Rijksmuseum (Holanda)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/EDVARD MUNCH/O BEIJO.jpg" class="tamanhoImgCard" alt="">
+          <p>Edvard Munch. O Beijo, 1897<br>Óleo sobre tela 99 cm x 81 cm<br>Museu Munch (Noruega)</p>
+        </div>
+
+        <div class="col-md-4">
+          <img src="imgArtista/CAMILLE PISSARRO/APPLE HARVEST.jpg" class="tamanhoImgCard" alt="">
+          <p>Camille Pissarro. Colheita de Maçãs, 1886 <br>Óleo sobre tela 127 cm x 127 cm<br>Museu de Arte de Osaka (Osaka, Japão)</p>
         </div>
         <div class="col-md-4">
           <img src="imgArtista/VINCENTE VAN GOGH/lirios.jpg" class="tamanhoImgCard" alt="">
           <p>Van Gogh. Lírios, 1889 <br> Óleo sobre a tela 71 cm x 93 cm <br> Museu J. Paul Getty (EUA)</p>
         </div>
         <div class="col-md-4">
-          <img src="imgArtista/VINCENTE VAN GOGH/Van-Gogh-potato-eaters.jpg" class="tamanhoImgCard" alt="">
-          <p>Van Gogh. Os Comedores de Batata, 1885 <br>Óleo sobre a tela 82 cm x 1,14 m <br> Museu Van Gogh (Holanda)
-          </p>
+          <img src="imgArtista/REMBRANDT/A LICAO DE ANATOMIA DO DR.TULP.jpg" class="tamanhoImgCard" alt="">
+          <p>Rembrandt. A Lição de Anatomia do Dr. Tulp, 1632<br> Óleo sobre tela 169.5 cm x 216.5 cm<br>Mauritshuis (Holanda)</p>
         </div>
       </div>
       <br>
       <div class="row">
         <div class="col-md-4">
-          <img src="imgArtista/VINCENTE VAN GOGH/Os-girassois.jpeg" class="tamanhoImgCard" alt="">
-          <p>Van Gogh. Os Girassóis, 1888 <br> Óleo sobre a tela 91 cm × 72 cm <br>Neue Pinakothek (Alemanha)</p>
+          <img src="imgArtista/SALVADOR DALI/A TENTACAO DE SANTO ANTAO.jpg" class="tamanhoImgCard" alt="">
+          <p>Salvador Dalí. A Tentação de Santo Antão, 1946<br>Óleo sobre tela 89.5 cm x 119.5 cm<br>Museu Real de Belas Artes (Bélgica)</p>
         </div>
+        <div class="col-md-4">
+          <img src="imgArtista/CLAUDE MONET/JARDIM EM SAINTE-ADRESSE.jpg" class="tamanhoImgCard" alt="">
+          <p>Claude Monet. Jardim em Sainte-Adresse, 1867 <br> Óleo sobre tela 98 cm x 1,30 m <br> The Metropolitan Museum of Art (EUA)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/FRIDA KAHLO/AUTORRETRATO COM COLAR DE ESPINHOS E BEIJA-FLOR.jpg" class="tamanhoImgCard"
+            alt="">
+          <p>Frida Kahlo. Autorretrato com Colar de Espinhos e Beija-Flor, 1940<br>Óleo sobre tela 61 cm x 47 cm<br> Coleção Privada
+          </p>
+        </div>
+
+        <div class="col-md-4">
+          <img src="imgArtista/caravaggio/narcissus-caravaggio-1594-96-edited-cke.webp" class="tamanhoImgCard" alt="">
+          <p>Caravaggio. Narciso, c. 1597-1599<br>Óleo sobre tela 113.3 cm x 94 cm<br>Galeria Nacional de Arte Antiga (Roma)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/PABLO PICASSO/DOV OF PEACE.jpg" class="tamanhoImgCard" alt="">
+          <p>Pablo Picasso. Dove of Peace, 1949<br> Litografia 54.9 cm x 69.6 cm<br>Várias coleções</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/LEONARDO DA VINCI/VIRGEM DAS ROCHAS.jpg" class="tamanhoImgCard" alt="">
+          <p>Leonardo da Vinci. Virgem das Rochas, c. 1483-1486<br>Óleo sobre tela 199 cm x 122 cm<br>Museu do Louvre (Paris)</p>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="imgArtista/EDVARD MUNCH/AMOR E DOR.jpg" class="tamanhoImgCard" alt="">
+          <p>Edvard Munch. Amor e Dor, 1893-1894<br> Óleo sobre tela 91 cm x 109 cm<br> GaleriaMuseu Munch (Noruega)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/JOHANNES VERMEER/A ARTE DA PINTURA.jpg" class="tamanhoImgCard" alt="">
+          <p>Johannes Vermeer. A Arte da Pintura, c. 1666-1668<br>Óleo sobre tela 120 cm x 100 cm<br>Museu de História da Arte (Viena)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/CAMILLE PISSARRO/camponesaEmPontoise.jpg" class="tamanhoImgCard" alt="">
+          <p>Camille Pissarro. Camponesa em Pontoise, 1881<br>Óleo sobre tela 81,3 cm x 64,7 cm <br> Galeria Nacional de Arte (Washington, D.C., EUA)
+          </p>
+        </div>
+
+        <div class="col-md-4">
+          <img src="imgArtista/VINCENTE VAN GOGH/Van-Gogh-potato-eaters.jpg" class="tamanhoImgCard" alt="">
+          <p>Van Gogh. Os Comedores de Batata, 1885 <br>Óleo sobre a tela 82 cm x 1,14 m <br> Museu Van Gogh (Holanda)
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/REMBRANDT/O RETORNO DO FILHO PRODIGIO.jpg" class="tamanhoImgCard" alt="">
+          <p>Rembrandt. O Retorno do Filho Pródigo, c. 1667-1669<br> Óleo sobre tela 262 cm x 205 cm<br> Museu Hermitage (São Petersburgo)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/SALVADOR DALI/O GRANDE MASTURBADOR.jpg" class="tamanhoImgCard" alt="">
+          <p>Salvador Dalí. O Grande Masturbador, 1929<br>Óleo sobre tela 110 cm x 150 cm<br>Museu Rainha Sofia (Madri) </p>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="imgArtista/CLAUDE MONET/A LAGOA DE LIRIOS D´´AGUA.jpg" class="tamanhoImgCard" alt="">
+          <p>Monet. A Lagoa de Lírios d'Água, 1908 <br>Óleo sobre tela 92 cm x 90 cm <br>Coleções Particulares (localização variável)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/PABLO PICASSO/CABECA DE TOURO.jpg" class="tamanhoImgCard" alt="">
+          <p>Pablo Picasso. Cabeça de Touro, 1942<br>Bronze fundido 33.5 cm x 43.5 cm x 19 cm<br>Museu Picasso (Paris)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/LEONARDO DA VINCI/HOMEN VITRUVIANO.jpg" class="tamanhoImgCard" alt="">
+          <p>Leonardo da Vinci. Homem Vitruviano, c. 1490<br> Pena e tinta sobre papel 34,4 cm x 25,5 cm<br>Gallerie dell'Accademia (Veneza, Itália)</p>
+        </div>
+
+        <div class="col-md-4">
+          <img src="imgArtista/EDVARD MUNCH/cinzas 1894.jpg" class="tamanhoImgCard" alt="">
+          <p>Edvard Munch. Cinzas, 1894<br> Óleo sobre tela 120,5 cm x 141 cm<br>Museu Munch (Noruega)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/caravaggio/calling-of-saint-matthew-1600-1-e1678577555527.jpeg" class="tamanhoImgCard"
+            alt="">
+          <p>Caravaggio. A Vocação de São Mateus, c. 1600<br> Óleo sobre tela 322 cm x 340 cm<br>Igreja de São Luís dos Franceses (Roma)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/JOHANNES VERMEER/VISTA DE DELFT.jpg" class="tamanhoImgCard" alt="">
+          <p>Johannes Vermeer. Vista de Delft, c. 1660-1661<br>Óleo sobre tela 96.5 cm x 115.7 cm<br>Mauritshuis (Holanda)</p>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="imgArtista/FRIDA KAHLO/DIEGO E EU.jpg" class="tamanhoImgCard" alt="">
+          <p>Frida Kahlo. Diego e Eu, 1949<br> Óleo sobre masonite 30 cm x 22.4 cm<br>Coleção Privada</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/CLAUDE MONET/CANTEIRO DE IRIS NO JARDIM GIVERNY.jpg" class="tamanhoImgCard" alt="">
+          <p>Claude Monet. Canteiro de Iris no Jardim Giverny, 1900 <br> Óleo sobre tela 81 cm x 92 cm <br>Museu d'Orsay (França)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/SALVADOR DALI/A DESINTEGRACAO DA PERSISTENCIA DA MEMORIA.jpg" class="tamanhoImgCard"
+            alt="">
+          <p>Salvador Dalí. A Desintegração da Persistência da Memória, 1952-1954<br>Óleo sobre tela 25.4 cm x 33 cm<br>Museu Salvador Dalí (Flórida)</p>
+        </div>
+
+        <div class="col-md-4">
+          <img src="imgArtista/REMBRANDT/A NOIVA JUDIA.jpg" class="tamanhoImgCard" alt="">
+          <p> Rembrandt. A Noiva Judia, c. 1665-1669<br>Óleo sobre tela 121.5 cm x 166.5 cm<br>Rijksmuseum (Holanda)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/PABLO PICASSO/MULHER NO ESPELHO.jpg" class="tamanhoImgCard" alt="">
+          <p>Pablo Picasso. Mulher no Espelho, 1932 <br> Óleo sobre tela 162.3 cm x 130.2 cm<br> Museu de Arte Moderna (Nova Iorque)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/EDVARD MUNCH/SELBSTBILDNIS MIT ZIGARETTE.jpg" class="tamanhoImgCard" alt="">
+          <p>Edvard Munch. Selbstbildnis Mit Zigarette, 1895<br> Óleo sobre tela 110.5 cm x 85.5 cm<br>National Gallery (Noruega)</p>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="imgArtista/CAMILLE PISSARRO/pissarro-boulevar-italianos-d.jpg" class="tamanhoImgCard" alt="">
+          <p>Camille Pissarro. O Boulevard Italiano, Manhã, Sol, 1897<br> Óleo sobre tela 73,3 cm x 92,1 cm <br>Museu Hermitage (São Petersburgo, Rússia)
+            (França)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/JOHANNES VERMEER/MOCA LENDO UMA CARTA A JANELA.jpg" class="tamanhoImgCard" alt="">
+          <p>Johannes Vermeer. Moça Lendo uma Carta à Janela, c. 1657-1659<br> Óleo sobre tela 83 cm x 64.5 cm<br>Gemäldegalerie Alte Meister (Dresden)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/LEONARDO DA VINCI/SALVADOR MUNDI.jpg" class="tamanhoImgCard" alt="">
+          <p>Leonardo da Vinci. Salvador Mundi, c. 1500<br> Óleo sobre nogueira 45.4 cm x 65.6 cm<br> The Metropolitan
+            Museum of Art (EUA)
+            (EUA)</p>
+        </div>
+
         <div class="col-md-4">
           <img src="imgArtista/VINCENTE VAN GOGH/o-quarto-em-arles-van-gogh.webp" class="tamanhoImgCard" alt="">
           <p>Van Gogh. Quarto em Arles, 1888 <br> Óleo sobre a tela 73,6 cm × 92,3 cm <br> The Art Institute of Chicago
             (EUA)</p>
         </div>
         <div class="col-md-4">
-          <img src="imgArtista/VINCENTE VAN GOGH/noite estrelada.webp" class="tamanhoImgCard" alt="">
-          <p>Van Gogh. Noite Estrelada, 1889<br>Óleo sobre a tela 74 cm × 92 cm <br>Museu de Arte Moderna (NY)</p>
+          <img src="imgArtista/FRIDA KAHLO/O VEADO FERIDO.jpg" class="tamanhoImgCard" alt="">
+          <p>Frida Kahlo. O Veado Ferido, 1946<br>Óleo sobre masonite 22.4 cm x 30 cm <br> Coleção Privada</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/caravaggio/caravaggio-os-trapaceiros-cke.webp" class="tamanhoImgCard" alt="">
+          <p>Caravaggio. Os Trapaceiros, c. 1594<br>Óleo sobre tela 94 cm x 131 cm<br> Kimbell Art Museum (EUA)</p>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="imgArtista/CLAUDE MONET/MULHER COM SOMBRINHA.jpg" class="tamanhoImgCard" alt="">
+          <p>Claude Monet. Mulher com Sombrinha, 1875<br>Óleo sobre tela 1,00 m x 81 cm<br>National Gallery of Art (EUA)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/EDVARD MUNCH/SEPARACAO.jpg" class="tamanhoImgCard" alt="">
+          <p>Edvard Munch. Separação, 1896<br>Óleo sobre tela 96 cm x 127 cm<br>Museu Munch (Noruega)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/PABLO PICASSO/VIEUX GUITARISTE AVEUGLE.jpg" class="tamanhoImgCard" alt="">
+          <p>Pablo Picasso. Vieux Guitariste Aveugle, 1903-1904<br>Óleo sobre tela 121.3 cm x 82.5 cm<br>Instituto de Arte de Chicago (EUA)</p>
+        </div>
+
+        <div class="col-md-4">
+          <img src="imgArtista/SALVADOR DALI/JOVEM VIRGEM AUTOSODOMISADA PELOS CHIFRES DE SUA CASTIDADE.jpg"
+            class="tamanhoImgCard" alt="">
+          <p>Salvador Dalí. Jovem Virgem Autosodomizada pelos Chifres de sua Castidade, 1954<br>Óleo sobre tela 40.5 cm x 30.5 cm<br>Coleção Privada</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/LEONARDO DA VINCI/A ANUNCIACAO.jpg" class="tamanhoImgCard" alt="">
+          <p>Leonardo da Vinci. A Anunciação, c. 1472-1476<br>Óleo e têmpera sobre madeira 98 cm x 217 cm<br>Galeria Uffizi (Florença)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/JOHANNES VERMEER/MULHER SEGURANDO UMA BALANCA.jpg" class="tamanhoImgCard" alt="">
+          <p>Johannes Vermeer. Mulher Segurando uma Balança, c. 1664<br> Óleo sobre tela 42 cm x 35.5 cm<br>National Gallery of Art (Washington D.C.)</p>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="imgArtista/REMBRANDT/THE STANDARD BEARER.jpg" class="tamanhoImgCard" alt="">
+          <p>Rembrandt. The Standard Bearer, 1636<br>Óleo sobre tela 118.8 cm x 96.8 cm<br>Rijksmuseum (Holanda)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/CAMILLE PISSARRO/THE CRYSTAL PALACE.jpg" class="tamanhoImgCard" alt="">
+          <p>Camille Pissarro. Jardim em Sainte-Adresse, 1867 <br> Óleo sobre tela 98 cm x 1,30 m <br> The Metropolitan
+            Museum of Art (EUA)
+            (EUA)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/VINCENTE VAN GOGH/Vincent_van_Gogh_(1853-1890)_-_Wheat_Field_with_Crows_(1890).jpg" class="tamanhoImgCard" alt="">
+          <p>Van Gogh. Campo de Trigo com Corvos, 1890 <br> Óleo sobre a tela 50 cm x 1,03 m<br> Museu Van Gogh
+            (Holanda)</p>
+        </div>
+
+        <div class="col-md-4">
+          <img src="imgArtista/FRIDA KAHLO/FRIEDA E DIEGO RIVERA.jpg" class="tamanhoImgCard" alt="">
+          <p>Frida Kahlo. Frieda e Diego Rivera, 1931<br>Óleo sobre tela 100 cm x 79 cm<br>Museu de Arte Moderna de São Francisco (EUA)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/caravaggio/caravaggio-giuditta-che-taglia-la-testa-a-oloferne-1598-1599-cke.webp"
+            class="tamanhoImgCard" alt="">
+          <p>Caravaggio. Judite e Holofernes, c. 1599<br>Óleo sobre tela 145 cm x 195 cm<br>Galeria Nacional de Arte Antiga (Roma)</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgArtista/CAMILLE PISSARRO/Camille_Pissarro_-_The_road_to_Louveciennes_-_1870_Oil_on_canvas_-_(MeisterDrucke-984320).jpg" class="tamanhoImgCard" alt="">
+          <p>Camille Pissarro. A Estrada para Louveciennes, 1872<br>Óleo sobre tela 60 cm x 73,5 cm<br>Museu de Orsay (Paris, França)
+          </p>
         </div>
       </div>
     </div>
@@ -218,7 +507,7 @@
             <a href="tdsObras.html" class="text-reset fontesFooter">Todas As Obras</a>
           </p>
           <p>
-            <a href="novasObras.html" class="text-reset fontesFooter">Novas Obras</a>
+            <a href="privacidade.html" class="text-reset fontesFooter">Politica de privacidade</a>
           </p>
 
         </div>
@@ -228,31 +517,17 @@
         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
           <!-- Links -->
           <p>
-            <a href="todosPintores.html" class="text-reset fontesFooter">Todos os pintores</a>
+            <a href="termoDeUso.html" class="text-reset fontesFooter">Termos de uso</a>
           </p>
           <p>
-            <a href="#!" class="text-reset fontesFooter">Obras por Temas</a>
+            <a href="tdsObras.html" class="text-reset fontesFooter">Contato</a>
           </p>
           <p>
-            <a href="#!" class="text-reset fontesFooter">Sobre Nós</a>
+            <a href="sobre.html" class="text-reset fontesFooter">Sobre Nós</a>
           </p>
 
         </div>
-        <!-- Grid column -->
 
-        <!-- Grid column -->
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">Contato</h6>
-          <p><i class="fas fa-home me-3"></i> São Paulo, SP</p>
-          <p>
-            <i class="fas fa-envelope me-3"></i>
-            galeriaarteviva@gmail.com
-          </p>
-          <p><i class="fas fa-phone me-3"></i> +555 11 98765-4321 </p>
-
-        </div>
-        <!-- Grid column -->
       </div>
       <!-- Grid row -->
     </div>
