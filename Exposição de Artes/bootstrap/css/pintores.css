@@ -11,11 +11,11 @@ body {
   background-color: #FCFCFC;
 }
 
-.ajusteLogo {
+.ajusteLogo{
   width: 100%;
-  height: 100px;
+  height: 170px;
+  margin-top: -29%;
 }
-
 
 
 
@@ -129,7 +129,7 @@ body {
 
 .tamanhoImgArtista {
   margin-top: 0;
-  width: 70%;
+  width: 80%;
   height: 350px;
   padding: 0 0 0 24%;
 }
@@ -148,6 +148,12 @@ body {
 
 }
 
+h1{
+  text-align: center;
+  margin-top: 2%;
+}
+
+
 .ajusteFooter {
   margin-top: 40px;
   background-color: rgb(255, 251, 243);
@@ -162,11 +168,4 @@ body {
 
 .ajusteRedes {
   text-decoration: none;
-}
-
-footer{
-
-  p{
-    font-size: 0.7em;
-  }
 }
