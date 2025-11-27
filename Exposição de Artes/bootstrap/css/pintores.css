@@ -21,9 +21,9 @@ body {
 
 /* Estilo para o item ativo no menu principal */
 .navbar-nav .nav-item.active .nav-link {
-  color: #659aeb !important;
+  color: #ffffff !important;
   font-weight: 600;
-  background-color: rgba(44, 90, 160, 0.1);
+  background-color: rgba(204, 201, 201, 0.521);
   border-radius: 8px;
   text-decoration: underline;
 
@@ -129,9 +129,10 @@ body {
 
 .tamanhoImgArtista {
   margin-top: 0;
-  width: 80%;
+  width: 70%;
   height: 350px;
   padding: 0 0 0 24%;
+
 }
 
 .col-md-4{
@@ -152,7 +153,11 @@ h1{
   text-align: center;
   margin-top: 2%;
 }
-
+ 
+h2{
+  text-align: center;
+  margin-top: -2%;
+}
 
 .ajusteFooter {
   margin-top: 40px;
@@ -168,4 +173,11 @@ h1{
 
 .ajusteRedes {
   text-decoration: none;
+}
+
+footer{
+
+  p{
+    font-size: 0.7em;
+  }
 }
