@@ -2,26 +2,249 @@
 <html lang="pt-br">
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
-<link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet" />
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="bootstrap/css/pintores.css">
 <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
 <title>Contato</title>
-<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
 <link rel="stylesheet" href="bootstrap/css/style.css">
 
 <body>
     
+      <div class="container-fluid">
+
+    <div class="row">
+      <div class="col-md-12 tamanhoNavbar">
+        <nav class="navbar bg-body-tertiary">
+          <div class="container-fluid justify-content-center tamanhoNavbar">
+            <a class="navbar-brand" href="index.html">
+              <img src="Imagens/LOGO ARTES.jpg" class="ajusteLogo" alt="Logo do Site" width="30" height="24">
+            </a>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="boxMenuTransparente">
+
+      <nav class="navbar navbar-expand-lg navbar-menu-overlay">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav mx-auto">
+
+            <li class="nav-item"><a class="nav-link" href="index.html" role="button" aria-expanded="false">Início</a>
+            </li>
+            
+            <li class="nav-item"><a class="nav-link" href="tdsObras.html" role="button" aria-expanded="false">Todas as obras</a>
+            </li>
+
+            <li class="nav-item dropdown "> <!-- ALTERADO: adicionada classe 'active' -->
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Pintores</a>
+              <ul class="dropdown-menu dropdown-menu-coluna">
+                <div class="dropdown-coluna-container">
+
+                  <div class="dropdown-coluna">
+                    <li><a class="dropdown-item" href="vincentVanGogh.html">Vincent van Gogh</a></li>
+                    <!-- ALTERADO: adicionada classe 'active' -->
+                    <li><a class="dropdown-item" href="ClaudeMonet.html">Claude Monet</a></li>
+                    <li><a class="dropdown-item" href="CamillePissarro.html">Camille Pissarro</a></li>
+                    <li><a class="dropdown-item" href="PabloPicasso.html">Pablo Picasso</a></li>
+                    <li><a class="dropdown-item" href="LeonardoDaVinci.html">Leonardo da Vinci</a></li>
+                    <li><a class="dropdown-item" href="caravaggio.html">Caravaggio</a></li>
+                  </div>
+
+                  <div class="dropdown-coluna">
+                    <li><a class="dropdown-item" href="SalvadorDalí.html">Salvador Dalí</a></li>
+                    <li><a class="dropdown-item active" href="FridaKahlo.html">Frida Kahlo</a></li>
+                    <li><a class="dropdown-item" href="Rembrandt.html">Rembrandt</a></li>
+                    <li><a class="dropdown-item" href="JohannesVermeer.html">Johannes Vermeer</a></li>
+                    <li><a class="dropdown-item" href="EdvardMunch.html">Edvard Munch</a></li>
+                  </div>
+
+                </div>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">Obras por tema</a>
+              <ul class="dropdown-menu">
+                <div class="dropdown-coluna-container">
+
+                  <div class="dropdown-coluna">
+                    <li><a class="dropdown-item" href="religioso.html">Religioso</a></li>
+                    <li><a class="dropdown-item" href="mitologia.html">Mitologia</a></li>
+                    <li><a class="dropdown-item" href="paisagem.html">Paisagem</a></li>
+                    <li><a class="dropdown-item" href="floral.html">Floral</a></li>
+                    <li><a class="dropdown-item" href="naturezaMorta.html">Natureza morta</a></li>
+                    <li><a class="dropdown-item" href="Abstrato.html">Abstrato</a></li>
+                    <li><a class="dropdown-item" href="retrato.html">Retrato</a></li>
+                  </div>
+                </div>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown active"><a class="nav-link dropdown-toggle" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">Informações</a>
+              <ul class="dropdown-menu">
+                <div class="dropdown-coluna-container">
+
+                  <div class="dropdown-coluna">
+                    <li><a class="dropdown-item active" href="contato.html">Contato</a></li>
+                    <li><a class="dropdown-item" href="termoDeUso.html">Termos de uso</a></li>
+                    <li><a class="dropdown-item" href="privacidade.html">Privacidade</a></li>
+                    <li><a class="dropdown-item" href="#">Sobre nós</a></li>
+                  </div>
+
+                </div>
+              </ul>
+            </li>
+
+          </ul>
+        </div>
+    </div>
+    </nav>
+
+    <div class="boxBannerArtista"><img src="Imagens/banner_faleconosco.png"
+        class="tamanhoBannerPintores" alt=""></div><br><br>
+
+        <div class="tituloArtistas">
+            <h1>Contato:</h1>
+        </div>
+
+<form class="row g-3 boxContato">
+
+  <div class="col-md-6">
+    <label for="inputName" class="form-label">Nome</label>
+    <input type="text" class="form-control" placeholder="Nome" aria-label="First name">
+  </div>
+  <div class="col-md-6">
+    <label for="inputName" class="form-label">Sobrenome</label>
+    <input type="text" class="form-control" placeholder="Sobrenome" aria-label="Last name">
+  </div>
+
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4" placeholder="exemplo@gmail.com">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Telefone</label>
+    <input type="text" class="form-control" id="inputPassword4" placeholder="Ex: 11 98765-4321">
+  </div>
+<div class="col-md-12">
+  <label for="exampleFormControlTextarea1" class="form-label">Mande Uma Mensagem:</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+
+
+  <div class="col-12">
+    <button type="submit" class="btn btn-outline-dark">Enviar</button>
+  </div>
+</form>
+
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Galeria Arte Viva
+          </h6>
+   
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+
+          <p>
+            <a href="index.html" class="text-reset fontesFooter">Início</a>
+          </p>
+          <p>
+            <a href="tdsObras.html" class="text-reset fontesFooter">Todas As Obras</a>
+          </p>
+          <p>
+            <a href="privacidade.html" class="text-reset fontesFooter">Politica de privacidade</a>
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <p>
+            <a href="termoDeUso.html" class="text-reset fontesFooter">Termos de uso</a>
+          </p>
+          <p>
+            <a href="contato.html" class="text-reset fontesFooter">Contato</a>
+          </p>
+          <p>
+            <a href="sobre.html" class="text-reset fontesFooter">Sobre Nós</a>
+          </p>
+
+        </div>
+
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
 
 
 
 
-
-
-
-
-    <script src="bootstrap/popper.min.js" ></script>
-    <script src="bootstrap/js/bootstrap.min.js" ></script>
+  <script src="bootstrap/js/popper.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>
